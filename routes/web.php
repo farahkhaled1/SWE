@@ -24,11 +24,14 @@ Route::get('/dbconn', function () {
 });
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Route::get('/viewProfile', function () {
     return view('viewProfile');
 });
 
 =======
+=======
+>>>>>>> Stashed changes
 Route::get('/admin', function () {
     return view('AdminMpg');
 });
@@ -85,6 +88,9 @@ Route::get('/allforms', function () {
 });
 
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 // Route::get('/login', function () {
