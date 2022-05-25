@@ -23,15 +23,10 @@ Route::get('/dbconn', function () {
     return view('dbconn');
 });
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 Route::get('/viewProfile', function () {
     return view('viewProfile');
 });
 
-=======
-=======
->>>>>>> Stashed changes
 Route::get('/admin', function () {
     return view('AdminMpg');
 });
