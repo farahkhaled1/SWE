@@ -23,10 +23,69 @@ Route::get('/dbconn', function () {
     return view('dbconn');
 });
 
+<<<<<<< Updated upstream
 Route::get('/viewProfile', function () {
     return view('viewProfile');
 });
 
+=======
+Route::get('/admin', function () {
+    return view('AdminMpg');
+});
+
+Route::get('/supervisor', function () {
+    return view('SupervisorMpg');
+});
+
+Route::get('/doctor', function () {
+    return view('DoctorMpg');
+});
+
+Route::get('/assign1', function () {
+    return view('assign1');
+});
+
+Route::get('/assign2', function () {
+    return view('assign2');
+});
+
+Route::get('/coursespecs4', function () {
+    return view('coursespecs4');
+});
+
+Route::get('/coursespecs5', function () {
+    return view('coursespecs5');
+});
+
+Route::get('/coursespecs6', function () {
+    return view('coursespecs6');
+});
+
+Route::get('/coursespecs7', function () {
+    return view('coursespecs7');
+});
+
+Route::get('/courseAssesment', function () {
+    return view('courseAssesment');
+});
+
+Route::get('/specs1', function () {
+    return view('specs1');
+});
+
+Route::get('/specs2', function () {
+    return view('specs2');
+});
+
+Route::get('/specs3', function () {
+    return view('specs3');
+});
+Route::get('/allforms', function () {
+    return view('AllForms');
+});
+
+
+>>>>>>> Stashed changes
 
 // Route::get('/login', function () {
 //     return view('login');
