@@ -23,6 +23,10 @@ Route::get('/dbconn', function () {
     return view('dbconn');
 });
 
+Route::get('/viewProfile', function () {
+    return view('viewProfile');
+});
+
 
 // Route::get('/login', function () {
 //     return view('login');
