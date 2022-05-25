@@ -88,11 +88,6 @@ Route::get('/allforms', function () {
 });
 
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-
 // Route::get('/login', function () {
 //     return view('login');
 // });
