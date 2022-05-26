@@ -3,12 +3,12 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="Forms">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Forms</title>   
-    <link rel="stylesheet" href="{{url('css/jquery.css')}}" media="screen">
-<link rel="stylesheet" href="{{url('css/admin.css')}}" media="screen">
+    <title>All Forms</title> 
+    <link rel="stylesheet" href="{{url('css/nicepage.css')}}" media="screen">
+<link rel="stylesheet" href="{{url('css/All-Forms.css')}}" media="screen">
     <script class="u-script" type="text/javascript" src="{{url('js/jquery.js')}}" defer=""></script>
     <script class="u-script" type="text/javascript" src="{{url('js/nicepage.js')}}" defer=""></script>
     <meta name="generator" content="Nicepage 4.10.5, nicepage.com">
@@ -19,45 +19,50 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "",
-		"logo": "../../public/images/Misr_International_University_logo.png"
+		"logo": "images/logo.png"
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="admin">
+    <meta property="og:title" content="All Forms">
     <meta property="og:type" content="website">
   </head>
-  <body class="u-body u-xl-mode"><header class="u-clearfix u-gradient u-header u-header" id="sec-8e70"><a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="460" data-image-height="217">
-        <img src="images/Misr_International_University_logo.png" class="u-logo-image u-logo-image-1">
-      </a></header>
-    <section class="u-clearfix u-section-1" id="sec-fc04">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-layout-grid u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-container-style u-grey-5 u-list-item u-repeater-item u-list-item-1">                                           
-              <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-file-icon u-icon u-icon-1"><img src="{{url('images/4875033.png')}}" alt=""></span>
-                <h4 class="u-align-center u-text u-text-1">Course Specification Form</h4>
-                <a href="https://nicepage.com/k/yoga-html-templates" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-custom-color-3 u-radius-50 u-btn-1">Fill</a>
+  <body class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-a93c"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="654" data-image-height="194">
+          <img src="{{url('images/logo.png')}}" class="u-logo-image u-logo-image-1">
+        </a>
+      </div></header>
+    <section class="u-align-center u-clearfix u-section-1" id="sec-205a">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1">Forms</h2>
+        <p class="u-text u-text-default u-text-2">All This Forms should be submitted before the specified deadline.</p>
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">                                                                                                                        
+            <div class="u-container-style u-list-item u-repeater-item">                                                                                    
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1"><span class="u-file-icon u-icon u-icon-circle u-white u-icon-1"><img src= "{{url('images/form1.png')}}" alt=""></span>
+                <p class="u-align-center u-text u-text-custom-color-1 u-text-default u-text-3">Course Assesment Form</p>
+                <a href="" class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-none u-text-body-color u-btn-1">Enter</a>
               </div>
             </div>
-            <div class="u-align-center u-container-style u-grey-5 u-list-item u-repeater-item u-video-cover">
-              <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-file-icon u-icon u-icon-2"><img src="{{url('images/4984626.png')}}"alt=""></span>
-                <h4 class="u-align-center u-text u-text-2"> Assignment assessment</h4>
-                <a href="https://nicepage.com/k/yoga-html-templates" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-custom-color-3 u-radius-50 u-btn-2">Fill</a>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2"><span class="u-file-icon u-icon u-icon-circle u-white u-icon-2"><img src="{{url('images/form2.png')}}" alt=""></span>
+                <p class="u-align-center u-text u-text-custom-color-1 u-text-default u-text-4">Assignemnt Assesment Form</p>
+                <a href="" class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-text-body-color u-btn-2">Enter</a>
               </div>
             </div>
-            <div class="u-align-center u-container-style u-grey-5 u-list-item u-repeater-item u-video-cover">
-              <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-file-icon u-icon u-icon-3"><img src="{{url('images/49846261.png')}}" alt=""></span>
-                <h4 class="u-align-center u-text u-text-3">Course assessment</h4>
-                <a href="https://nicepage.com/k/yoga-html-templates" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-custom-color-3 u-radius-50 u-btn-3">Fill</a>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3"><span class="u-file-icon u-icon u-icon-circle u-white u-icon-3"><img src= "{{url('images/form3.png')}}" alt=""></span>
+                <p class="u-align-center u-text u-text-custom-color-1 u-text-default u-text-5">Course Specification Form</p>
+                <a href="" class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-text-body-color u-btn-3">Enter</a>
               </div>
             </div>
           </div>
         </div>
-        <a href="https://nicepage.com/k/aesthetic-html-templates" class="u-border-2 u-border-palette-2-base u-btn u-btn-round u-button-style u-hover-custom-color-2 u-none u-radius-6 u-text-body-color u-text-hover-white u-btn-4">Return</a>
       </div>
     </section>
     
     
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-0322"></footer>
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-e2a1"><div class="u-align-left u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <p class="u-text u-text-default u-text-1">Contact us: miuegypt.edu.eg</p>
+      </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
         <span>Website Templates</span>

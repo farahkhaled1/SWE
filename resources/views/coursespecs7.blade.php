@@ -6,7 +6,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>course-specs7</title> "{{url('js/nicepage.js')}}"
+    <title>course-specs7</title> 
     <link rel="stylesheet" href="{{url('css/course-specs4-7.css')}}" media="screen">
 <link rel="stylesheet" href="{{url('css/course-specs7.css')}}" media="screen">
     <script class="u-script" type="text/javascript" src= "{{url('js/jquerycourse-specs.js')}}" defer=""></script>

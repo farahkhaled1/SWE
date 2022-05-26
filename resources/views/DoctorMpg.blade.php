@@ -69,7 +69,7 @@
         <a href="https://nicepage.com/website-design" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-2">Submitted Forms</a>
         <img class="u-image u-image-default u-image-4" src= "{{url('images/form-img7.png')}}" alt="" data-image-width="225" data-image-height="225">
         <a href="https://nicepage.com/landing-page" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-3">Forms</a>
-        <a href="https://nicepage.com/html-website-builder" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-4">checklist<br>
+         <a href="https://nicepage.com/html-website-builder" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-4">checklist<br>
         </a>
       </div>
     </section>
