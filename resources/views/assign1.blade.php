@@ -120,6 +120,9 @@
           Basic
           <span style="text-decoration: underline !important">information</span>
         </h2>
+        @foreach ($courses as $row)
+
+        
         <ul class="u-align-left u-text u-text-2">
           <li>
             <b
@@ -129,7 +132,7 @@
                 font-family: 'Open Sans', sans-serif;
                 color: #111111;
               "
-              >Faculty:&nbsp;</b> 
+              >Course Title:&nbsp;</b> {{ $row->title }}
           </li>
           <li>
             <b
@@ -139,7 +142,7 @@
                 font-family: 'Open Sans', sans-serif;
                 color: #111111;
               "
-              >Department:&nbsp;</b> this will be printed from the database
+              >Course Code:&nbsp;</b> {{$row->code}}
           </li>
           <li>
             <b
@@ -149,7 +152,7 @@
                 font-family: 'Open Sans', sans-serif;
                 color: #111111;
               "
-              >Semester:</b>this will be printed from the database
+              >Programme on which the course is given:</b>{{$row->programme}}
           </li>
           <li>
             <b
@@ -159,7 +162,7 @@
                 font-family: 'Open Sans', sans-serif;
                 color: #111111;
               "
-              >Course Title:&nbsp;</b> this will be printed from the database
+              >Departement Offering the course:&nbsp;</b> {{$row->department_offering}} 
           </li>
           <li>
             <b
@@ -169,7 +172,7 @@
                 font-family: 'Open Sans', sans-serif;
                 color: #111111;
               "
-            >Course Code:</b> this will be printed from the database
+            >Department teaching the course:</b> {{$row->department_teaching}} 
           </li>
           <li>
             <b
@@ -179,7 +182,7 @@
                 font-family: 'Open Sans', sans-serif;
                 background-color: #ffffff;
               "
-              >Course coordinator:</b> this will be printed from the database
+              >Academic Year:</b>{{$row->year}}
           </li>
           <li>
             <b
@@ -188,8 +191,72 @@
                 color: #111111;
                 font-family: 'Open Sans', sans-serif;
                 background-color: #ffffff;
-              ">Assistant:&nbsp;</b>this will be printed from the database
+              ">Level:&nbsp;</b>{{$row->level}}
           </li>
+          <li>
+            <b
+              style="
+                font-size: 1.875rem;
+                color: #111111;
+                font-family: 'Open Sans', sans-serif;
+                background-color: #ffffff;
+              ">Date of specification approval:&nbsp;</b>{{$row->approval_date}}
+          </li>
+          <li>
+            <b
+              style="
+                font-size: 1.875rem;
+                color: #111111;
+                font-family: 'Open Sans', sans-serif;
+                background-color: #ffffff;
+              ">Credit Hours:&nbsp;</b>{{$row->credit_hours}}
+          </li>
+          <li>
+            <b
+              style="
+                font-size: 1.875rem;
+                color: #111111;
+                font-family: 'Open Sans', sans-serif;
+                background-color: #ffffff;
+              ">Practical:&nbsp;</b>{{$row->practical}}
+          </li>
+          <li>
+            <b
+              style="
+                font-size: 1.875rem;
+                color: #111111;
+                font-family: 'Open Sans', sans-serif;
+                background-color: #ffffff;
+              ">Lecture:&nbsp;</b>{{$row->lectures}}
+          </li>
+          <li>
+            <b
+              style="
+                font-size: 1.875rem;
+                color: #111111;
+                font-family: 'Open Sans', sans-serif;
+                background-color: #ffffff;
+              ">Total:&nbsp;</b>{{$row->total}}
+          </li>
+          <li>
+            <b
+              style="
+                font-size: 1.875rem;
+                color: #111111;
+                font-family: 'Open Sans', sans-serif;
+                background-color: #ffffff;
+              ">Course Prerequisite:&nbsp;</b>{{$row->Prerequisite}}
+          </li>
+          <li>
+            <b
+              style="
+                font-size: 1.875rem;
+                color: #111111;
+                font-family: 'Open Sans', sans-serif;
+                background-color: #ffffff;
+              ">Course coordinator:&nbsp;</b>{{$row->assistant}}
+          </li>
+         @endforeach
         </ul>
         <div
           class="u-border-3 u-border-grey-dark-1 u-shape u-shape-right u-shape-top u-shape-1"

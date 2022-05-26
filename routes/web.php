@@ -24,6 +24,10 @@ Route::get('/dbconn', function () {
     return view('dbconn');
 });
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 Route::get('/viewProfile', function () {
     return view('viewProfile');
 });
@@ -87,12 +91,22 @@ Route::get('/specs3', function () {
 Route::get('/allforms', function () {
     return view('AllForms');
 });
+<<<<<<< Updated upstream
 
+=======
+Route::get('/test', function () {
+    return view('test');
+});
+//Route::get('courses', [CourseController::class, 'show']);
+Route::get('/courses','App\Http\Controllers\CourseController@show');
+// Route::get('/assign1',[CourseContoller::class,'show']);
+>>>>>>> Stashed changes
 
 Route::get('assign1',[CourseContoller::class,'show']);
 
 
 
+<<<<<<< Updated upstream
 =======
 Route::get('/doctordetails', function () {
     return view('doctorDetails');
@@ -101,6 +115,8 @@ Route::get('/doctordetails', function () {
 
 Route::get('courses','CourseController@assign1');
 
+=======
+>>>>>>> Stashed changes
 
 // Route::get('/login', function () {
 //     return view('login');
