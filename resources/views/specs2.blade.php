@@ -257,7 +257,7 @@
           </form>
         </div>
         <a
-          href="specs-3.html"
+          href="{{url('specs3')}}"
           class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2"
           >NEXT</a
         >

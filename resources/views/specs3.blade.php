@@ -1508,9 +1508,9 @@
         
       </div>
       <a style="float: right;margin-right: 50px;"
-      href="specs-3.html"
+      href="{{url('dashboard')}}"
       class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2"
-      >NEXT</a
+      >Done</a
     >
      
     </section>
@@ -1584,31 +1584,9 @@
               >Engineering - Architecture</a
             >
           </li>
-          <li>
-            <a
-              href="specs-3.html"
-              data-page-id="13208308"
-              class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-8"
-              >NEXT</a
-            >
-          </li>
         </ul>
       </div>
     </footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a
-        class="u-link"
-        href="https://nicepage.com/website-templates"
-        target="_blank"
-      >
-        <span>Website Templates</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="" target="_blank">
-        <span>Website Builder Software</span> </a
-      >.
-    </section>
+
   </body>
 </html>

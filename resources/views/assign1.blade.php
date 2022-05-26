@@ -206,7 +206,7 @@
           class="u-border-3 u-border-grey-dark-1 u-shape u-shape-bottom u-shape-left u-shape-2"
         ></div>
         <a
-          href="assign2.html"
+          href="{{url('assign2')}}"
           data-page-id="836106269"
           class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-5-dark-3 u-btn-1"
           >NEXT</a

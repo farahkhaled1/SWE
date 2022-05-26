@@ -23,18 +23,9 @@ Route::get('/dbconn', function () {
     return view('dbconn');
 });
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 Route::get('/viewProfile', function () {
     return view('viewProfile');
 });
-
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 Route::get('/admin', function () {
     return view('AdminMpg');
 });
@@ -93,10 +84,6 @@ Route::get('/allforms', function () {
 Route::get('courses','CourseController@assign1');
 
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 // Route::get('/login', function () {
 //     return view('login');
 // });

@@ -147,7 +147,7 @@
           </form>
         </div>
         <a
-          href="specs-2.html"
+          href="{{url('specs2')}}"
           data-page-id="708818389"
           class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2"
           >NEXT</a
