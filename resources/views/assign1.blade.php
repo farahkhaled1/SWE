@@ -129,8 +129,7 @@
                 font-family: 'Open Sans', sans-serif;
                 color: #111111;
               "
-              >Faculty:&nbsp;</b
-            >
+              >Faculty:&nbsp;</b> 
           </li>
           <li>
             <b
@@ -140,8 +139,7 @@
                 font-family: 'Open Sans', sans-serif;
                 color: #111111;
               "
-              >Department:&nbsp;</b
-            >
+              >Department:&nbsp;</b> this will be printed from the database
           </li>
           <li>
             <b
@@ -151,8 +149,7 @@
                 font-family: 'Open Sans', sans-serif;
                 color: #111111;
               "
-              >Semester:</b
-            >
+              >Semester:</b>this will be printed from the database
           </li>
           <li>
             <b
@@ -162,8 +159,7 @@
                 font-family: 'Open Sans', sans-serif;
                 color: #111111;
               "
-              >Course Title:&nbsp;</b
-            >
+              >Course Title:&nbsp;</b> this will be printed from the database
           </li>
           <li>
             <b
@@ -173,8 +169,7 @@
                 font-family: 'Open Sans', sans-serif;
                 color: #111111;
               "
-              >Course Code:</b
-            >
+            >Course Code:</b> this will be printed from the database
           </li>
           <li>
             <b
@@ -184,8 +179,7 @@
                 font-family: 'Open Sans', sans-serif;
                 background-color: #ffffff;
               "
-              >Course coordinator:</b
-            >
+              >Course coordinator:</b> this will be printed from the database
           </li>
           <li>
             <b
@@ -194,9 +188,7 @@
                 color: #111111;
                 font-family: 'Open Sans', sans-serif;
                 background-color: #ffffff;
-              "
-              >Assistant:&nbsp;</b
-            >
+              ">Assistant:&nbsp;</b>this will be printed from the database
           </li>
         </ul>
         <div

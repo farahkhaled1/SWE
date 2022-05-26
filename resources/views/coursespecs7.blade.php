@@ -58,7 +58,7 @@
             </div>
           </div>
         </div>
-        <a href="https://nicepage.app" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-grey-60 u-radius-2 u-text-white u-btn-1"><span class="u-file-icon u-icon u-text-white u-icon-1"><img src="images/7.png" alt=""></span>&nbsp;Previous
+        <a href="{{url('coursespecs6')}}" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-grey-60 u-radius-2 u-text-white u-btn-1"><span class="u-file-icon u-icon u-text-white u-icon-1"><img src="images/7.png" alt=""></span>&nbsp;Previous
         </a>
         <a href="https://nicepage.com/wordpress-themes" class="u-border-2 u-border-custom-color-2 u-border-hover-grey-60 u-btn u-btn-round u-button-style u-hover-custom-color-2 u-none u-radius-50 u-btn-2">Submit</a>
       </div>
