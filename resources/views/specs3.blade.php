@@ -1508,11 +1508,9 @@
         
       </div>
       <a style="float: right;margin-right: 50px;"
-      href="{{url('dashboard')}}"
-      class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2"
-      >Done</a
+      href="{{url('dashboard')}}" 
+      class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2" name="btn">Done</a
     >
-     
     </section>
 
     <footer

@@ -24,19 +24,15 @@ Route::get('/dbconn', function () {
     return view('dbconn');
 });
 
-<<<<<<< Updated upstream
-Route::get('/viewProfile', function () {
-    return view('viewProfile');
-});
-=======
-
 Route::get('/viewProfile', function () {
     return view('viewProfile');
 });
 
 
+Route::get('/viewProfile', function () {
+    return view('viewProfile');
+});
 
->>>>>>> Stashed changes
 Route::get('/admin', function () {
     return view('AdminMpg');
 });
@@ -49,9 +45,9 @@ Route::get('/doctor', function () {
     return view('DoctorMpg');
 });
 
-// Route::get('/assign1', function () {
-//     return view('assign1');
-// });
+Route::get('/assign1', function () {
+    return view('assign1');
+});
 
 Route::get('/assign2', function () {
     return view('assign2');
@@ -92,15 +88,20 @@ Route::get('/allforms', function () {
     return view('AllForms');
 });
 
+
 Route::get('assign1',[CourseContoller::class,'show']);
 
 
 
-
-<<<<<<< Updated upstream
 =======
+Route::get('/doctordetails', function () {
+    return view('doctorDetails');
+});
 
->>>>>>> Stashed changes
+
+Route::get('courses','CourseController@assign1');
+
+
 // Route::get('/login', function () {
 //     return view('login');
 // });
