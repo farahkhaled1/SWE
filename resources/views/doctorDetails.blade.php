@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{url('css/doctorDetails2.css')}}" media="screen">
 <link rel="stylesheet" href="{{url('css/doctorDetails.css')}}" media="screen">
     <script class="u-script" type="text/javascript" src= "{{url('js/jquery.js')}}" defer=""></script>
-    <script class="u-script" type="text/javascript" src="{{url('js/nicepage.js')}} defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{url('js/nicepage.js')}}" defer=""></script>
     <meta name="generator" content="Nicepage 4.7.1, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     
@@ -41,10 +41,10 @@
     </section>
     <section class="u-align-center u-clearfix u-gradient u-section-2" id="carousel_2cbc">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <a href="https://nicepage.com/html-website-builder" class="u-border-none u-btn u-button-style u-custom-color-4 u-hover-custom-color-3 u-btn-1">Add proffesor</a>
+        <a href="{{url('adddoctor')}}" class="u-border-none u-btn u-button-style u-custom-color-4 u-hover-custom-color-3 u-btn-1">Add proffesor</a>
         <div class="u-container-style u-custom-color-4 u-group u-shape-rectangle u-group-1">
           <div class="u-container-layout u-container-layout-1">
-            <h4 class="u-text u-text-white u-text-1">MIU Proffesors Table</h4>
+            <h4 class="u-text u-text-white u-text-1">MIU Professor Table</h4>
           </div>
         </div>
         <div class="u-container-style u-group u-group-2">
