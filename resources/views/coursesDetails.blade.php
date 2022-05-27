@@ -30,10 +30,10 @@
         <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="460" data-image-height="217">
           <img src="/images/Misr_International_University_logo.png" class="u-logo-image u-logo-image-1">
         </a>
-        <div class="u-container-style u-custom-color-2 u-group u-shape-rectangle u-group-1">
+        <!-- <div class="u-container-style u-custom-color-2 u-group u-shape-rectangle u-group-1">
           <div class="u-container-layout u-valign-bottom u-container-layout-1">
             <p class="u-align-center u-text u-text-1">Doctor's name</p>
-          </div>
+          </div> -->
         </div><span class="u-file-icon u-icon u-text-custom-color-2 u-icon-1"><img src="/images/2.png" alt=""></span>
       </div></header>
     <section class="u-border-5 u-border-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-clearfix u-custom-color-4 u-valign-bottom u-section-1" id="sec-20ea">
