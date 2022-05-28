@@ -3,16 +3,18 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Contact ​Us, ​Faculties Links​">
+    <meta name="keywords" content="​Faculties Links​">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Doctors page</title>
-    <link rel="stylesheet" href="{{url('css/Supervisorpage2.css')}}" media="screen">
-    <link rel="stylesheet" href="{{url('css/Supervisorpage.css')}}" media="screen">
+    <title>Dr-main page</title>
+    <link rel="stylesheet" href="{{url('css/DoctorMpg2.css')}}" media="screen">
+<link rel="stylesheet" href="{{url('css/DoctorMpg.css')}}"media="screen">
     <script class="u-script" type="text/javascript" src="{{url('js/jquery.js')}}" defer=""></script>
-    <script class="u-script" type="text/javascript" src="{{url('js/Supervisorpage.js')}}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{url('js/DoctorMpg.js')}}" defer=""></script>
     <meta name="generator" content="Nicepage 4.7.1, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
     
     
     
@@ -22,55 +24,81 @@
 		"name": ""
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Supervisor page">
+    <meta property="og:title" content="Dr-main page">
     <meta property="og:type" content="website">
   </head>
-  <body class="u-body u-xl-mode"><header class="u-clearfix u-gradient u-header u-header" id="sec-bc62"><div class="u-clearfix u-sheet u-sheet-1">
-        <img class="u-image u-image-default u-image-1" src="{{url('images/logo.png')}}" alt="" data-image-width="654" data-image-height="194">
-        <div class="u-container-style u-custom-color-2 u-group u-radius-10 u-shape-round u-group-1">
-          <div class="u-container-layout u-valign-middle u-container-layout-1">
-            <p class="u-text u-text-default u-text-1">Hello,DR name</p>
-          </div>                                                                                                                                 
-        </div><span class="u-file-icon u-icon u-icon-1" data-href="https://www.youtube.com/channel/UCSWoceY_bLReeBUypucmheA" data-target="_blank"><img src="{{url('images/2111748.png')}}" alt=""></span>
+  <body class="u-body u-xl-mode"><header class="u-clearfix u-gradient u-header u-header" id="sec-bc62"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <img class="u-image u-image-default u-image-1" src="images/logo.png" alt="" data-image-width="654" data-image-height="194"><span class="u-file-icon u-icon u-icon-1" data-href="https://www.youtube.com/channel/UCSWoceY_bLReeBUypucmheA" data-target="_blank"><img src="images/2111748.png" alt=""></span>
+        <div class="u-custom-color-2 u-shape u-shape-rectangle u-shape-1"></div>
+        <p class="u-align-left u-text u-text-body-alt-color u-text-1">Dr name</p>
       </div></header>
-    <section class="u-carousel u-slide u-block-8ad7-1" id="carousel_5da0" data-interval="5000" data-u-ride="carousel">
-      <ol class="u-absolute-hcenter u-carousel-indicators u-block-8ad7-2">
-        <li data-u-target="#carousel_5da0" class="u-active u-grey-30" data-u-slide-to="0"></li>
-      </ol>
-      <div class="u-carousel-inner" role="listbox">
-        <div class="u-active u-align-center u-carousel-item u-clearfix u-image u-shading u-section-1-1" src="" data-image-width="1600" data-image-height="1066">
-          <div class="u-clearfix u-sheet u-sheet-1">
-            <h1 class="u-text u-text-default u-title u-text-1">Welcome to MIU's<br>&nbsp;Quality Assurance System
-            </h1>
+    <section class="u-clearfix u-image u-section-1" id="sec-e95d" data-image-width="506" data-image-height="320">
+      <div class="u-border-7 u-border-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-custom-color-3 u-expanded-width u-shape u-shape-rectangle u-shape-1"></div>
+      <a href="55049993" class="u-border-none u-btn u-button-style u-none u-text-body-alt-color u-btn-1" target="_blank">home<br>
+      </a>
+      <a href="https://nicepage.com/k/announcement-html-templates" class="u-border-none u-btn u-button-style u-none u-text-body-alt-color u-text-hover-white u-btn-2">
+        <span style="font-size: 1.125rem;">MY COURSES</span>
+        <br>
+        <br>
+      </a>
+      <h2 class="u-subtitle u-text u-text-1">Welcome to Quality Assurence Website&nbsp;<br>
+      </h2>
+      <h6 class="u-text u-text-2"> Misr International University announce for new quality assurence system website. New design and features are found</h6>
+    </section>
+    <section class="u-clearfix u-gradient u-section-2" id="sec-e6a6">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-container-style u-group u-group-1">
+          <div class="u-container-layout">
+            <img class="u-image u-image-default u-image-1" src="images/staff-icon1.png" alt="" data-image-width="421" data-image-height="375">
+            <a href="https://nicepage.com/joomla-templates" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-1">submitied forms<br>
+            </a>
+          </div>
+        </div>
+        <div class="u-container-style u-group u-group-2">
+          <div class="u-container-layout">
+            <img class="u-expanded-width u-image u-image-default u-preserve-proportions u-image-2" src="images/form-img71.png" alt="" data-image-width="225" data-image-height="225">
+            <a href="https://nicepage.com/html-website-builder" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-2-dark-1 u-btn-2">Forms</a>
+          </div>
+        </div>
+        <div class="u-container-style u-group u-group-3">
+          <div class="u-container-layout">
+            <img class="u-expanded-width u-image u-image-default u-image-3" src="images/form-img31.png" alt="" data-image-width="855" data-image-height="724">
+            <a href="https://nicepage.com/joomla-templates" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-3">courses</a>
           </div>
         </div>
       </div>
-      <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-text-grey-30 u-block-8ad7-3" href="#carousel_5da0" role="button" data-u-slide="prev">
-        <span aria-hidden="true">
-          <svg viewBox="0 0 477.175 477.175"><path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
-                    c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path></svg>
-        </span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-text-grey-30 u-block-8ad7-4" href="#carousel_5da0" role="button" data-u-slide="next">
-        <span aria-hidden="true">
-          <svg viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
-                    c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path></svg>
-        </span>
-        <span class="sr-only">Next</span>
-      </a>  
     </section>
-    <section class="u-clearfix u-section-2" id="sec-86a1"> 
-      <div class="u-clearfix u-sheet u-sheet-1">  
-        <img class="u-image u-image-default u-image-1" src="{{url('images/form-img2.png')}}" alt="" data-image-width="382" data-image-height="381">
-        <img class="u-image u-image-default u-preserve-proportions u-image-2" src="{{url('images/form-img3.png')}}" alt="" data-image-width="855" data-image-height="724">
-        <a href="{{url('coursedetails')}}" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-1">Courses</a>
-        <img class="u-image u-image-default u-image-3" src="{{url('images/staff-icon.png')}}" alt="" data-image-width="421" data-image-height="375">
-        <a href="{{url('allforms')}}" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-2">Submitted Forms</a>
-        <img class="u-image u-image-default u-image-4" src= "{{url('images/form-img7.png')}}" alt="" data-image-width="225" data-image-height="225">
-        <a href="{{url('allforms')}}" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-3">Forms</a>
-         <a href="https://nicepage.com/html-website-builder" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-4">checklist<br>
-        </a>
+    <section class="u-clearfix u-gradient u-section-3" id="sec-88e9">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h3 class="u-align-center u-text u-text-1"> MIU Quality Assurence website is a modern, professional and beautiful learning management system which provides many awesome features, options and clever solutions.</h3>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-grey-10 u-section-4" id="sec-920c">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-rotation-parent u-rotation-parent-1">
+          <div class="u-rotate-90 u-shape u-shape-svg u-text-palette-5-dark-1 u-shape-1">
+            <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 140 160" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-2150"></use></svg>
+            <svg class="u-svg-content" viewBox="0 0 140 160" x="0px" y="0px" id="svg-2150"><g><polygon points="0,0 140,80 0,160 	"></polygon>
+</g></svg>
+          </div>
+        </div>
+        <h1 class="u-text u-title u-text-1"> Features MIU System&nbsp;</h1>
+        <div class="u-container-style u-group u-group-1">
+          <div class="u-container-layout">
+            <p class="u-align-center u-text u-text-default u-text-2">
+              <span style="font-size: 1.25rem;">SIS Staff System</span>
+              <br>
+            </p>
+            <p class="u-align-center u-text u-text-default u-text-3">
+              <span style="font-weight: 700;">Doctor's and TA's can access the system to open their lectures online meetings according to their semester schedules and take the attendance for the students. In addition, they can manage their vacations online.</span>
+            </p>
+            <p class="u-text u-text-4">Student Portal</p>
+            <p class="u-align-center u-text u-text-5">
+              <span style="font-size: 1.125rem; font-weight: 700;">Many facilities students will found such as their semester schedules containing their lectures meeting links, their transcripts grading reports, online payment and more... Click&nbsp;<b>&nbsp;<a href="https://portal.miuegypt.edu.eg/Login.html" target="_blank" rel="noreferrer noopener" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">here</a></b>&nbsp;to open Student Portal system.
+              </span>&nbsp;
+            </p>
+          </div>
+        </div>
       </div>
     </section>
     
@@ -115,14 +143,14 @@
         </div>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/html-templates" target="_blank">
-        <span>HTML Template</span>
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
       </a>
       <p class="u-text">
         <span>created with</span>
       </p>
-      <a class="u-link" href="https://nicepage.com/website-builder" target="_blank">
-        <span>Best Free Website Builder</span>
+      <a class="u-link" href="" target="_blank">
+        <span>Website Builder Software</span>
       </a>. 
     </section>
   </body>

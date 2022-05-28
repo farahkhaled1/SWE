@@ -78,6 +78,13 @@ Route::get('/specs1', function () {
     return view('specs1');
 });
 
+Route::get('adddoctor', function () {
+    return view('addDoctor');
+});
+
+
+
+
 Route::get('/specs2', function () {
     return view('specs2');
 });
