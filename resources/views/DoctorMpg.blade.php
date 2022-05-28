@@ -57,13 +57,13 @@
         <div class="u-container-style u-group u-group-2">
           <div class="u-container-layout">
             <img class="u-expanded-width u-image u-image-default u-preserve-proportions u-image-2" src="images/form-img71.png" alt="" data-image-width="225" data-image-height="225">
-            <a href="https://nicepage.com/html-website-builder" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-2-dark-1 u-btn-2">Forms</a>
+            <a href="{{url('allforms')}}"class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-2-dark-1 u-btn-2">Forms</a>
           </div>
         </div>
         <div class="u-container-style u-group u-group-3">
           <div class="u-container-layout">
             <img class="u-expanded-width u-image u-image-default u-image-3" src="images/form-img31.png" alt="" data-image-width="855" data-image-height="724">
-            <a href="https://nicepage.com/joomla-templates" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-3">courses</a>
+            <a href="{{url('coursedetails')}}" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-3">courses</a>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@
               <br>
             </p>
             <p class="u-align-center u-text u-text-default u-text-3">
-              <span style="font-weight: 700;">Doctor's and TA's can access the system to open their lectures online meetings according to their semester schedules and take the attendance for the students. In addition, they can manage their vacations online.</span>
+              <span style="font-weight: 700;">Doctor and TA can access the system to open their lectures online meetings according to their semester schedules and take the attendance for the students. In addition, they can manage their vacations online.</span>
             </p>
             <p class="u-text u-text-4">Student Portal</p>
             <p class="u-align-center u-text u-text-5">
