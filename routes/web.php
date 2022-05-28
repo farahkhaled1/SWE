@@ -113,6 +113,10 @@ Route::get('/coursedetails', function () {
     return view('coursesDetails');
 });
 
+Route::get('/checklist', function () {
+    return view('Checklist');
+});
+
 
 Route::get('courses','CourseController@assign1');
 
