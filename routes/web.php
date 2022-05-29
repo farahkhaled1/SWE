@@ -1,8 +1,8 @@
 <?php
 
+use App\Http\Controllers\Controller;
 use App\Http\Controllers\DemoController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CourseController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,7 +25,52 @@ Route::get('/dbconn', function () {
 });
 
 
-Route::get('/viewProfile', function () {
+// Route::get('/login', function () {
+//     return view('login');
+// });
+
+
+// Route::get('/main', MainController::class, 'index');
+
+// Route::resource('demo', DemoController::class);
+
+
+
+// Route::get('/uploadfile', UploadfileController::class, 'index');
+// Route::post('/uploadfile', UploadfileController::class, 'upload');
+// Route::post('/main/checklogin', MainController::class, 'checklogin');
+// Route::get('main/successlogin', MainController::class, 'successlogin');
+// Route::get('main/logout', MainController::class, 'logout');
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
+
+
+
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified', 'authadmin'
+])->group(function () {
+    Route::get('admin/dashboard', function () {
+        return view('admin.dashboard');
+    })->name('admin.dashboard');
+
+    Route::get('admin/dashboard/profile', function () {
+        return view('dashboard');
+    })->name('profile');
+});
+
+Route::post('/specs1/create',[Controller::class,'update_profile']);
+Route::get('/viewProfile', function  () {
     return view('viewProfile');
 });
 
@@ -49,7 +94,9 @@ Route::get('/doctor', function () {
 Route::get('/assign1', function () {
     return view('assign1');
 });
-
+Route::get('/specs_courseinfo', function () {
+    return view('specs_courseinfo');
+});
 Route::get('/assign2', function () {
     return view('assign2');
 });
@@ -96,44 +143,44 @@ Route::get('/allforms', function () {
     return view('AllForms');
 });
 
+Route::get('/assignment0', function () {
+    return view('assignment0');
+});
+
+Route::get('/assignment1', function () {
+    return view('assignment1');
+});
+
+
 Route::get('/test', function () {
     return view('test');
 });
 //Route::get('courses', [CourseController::class, 'show']);
-Route::get('/courses','App\Http\Controllers\CourseController@show');
+Route::get('/courses', 'App\Http\Controllers\CourseController@show');
 // Route::get('/assign1',[CourseContoller::class,'show']);
-Route::get('assign1',[CourseController::class,'show']);
+Route::get('assign1', [CourseController::class, 'show']);
 
+Route::get('coursesDetails',[CourseController::class,'show1']);
 
 Route::get('/doctordetails', function () {
     return view('doctorDetails');
 });
 
-Route::get('/coursedetails', function () {
+<<<<<<< Updated upstream
+Route::get('/coursesdetails', function () {
     return view('coursesDetails');
 });
-
-
-Route::get('courses','CourseController@assign1');
-
-
-
-// Route::get('/login', function () {
-//     return view('login');
+=======
+// Route::get('/coursesDetails', function () {
+//     return view('coursesDetails');
 // });
+>>>>>>> Stashed changes
 
 
-// Route::get('/main', MainController::class, 'index');
-
-// Route::resource('demo', DemoController::class);
+Route::get('courses', 'CourseController@assign1');
 
 
 
-// Route::get('/uploadfile', UploadfileController::class, 'index');
-// Route::post('/uploadfile', UploadfileController::class, 'upload');
-// Route::post('/main/checklogin', MainController::class, 'checklogin');
-// Route::get('main/successlogin', MainController::class, 'successlogin');
-// Route::get('main/logout', MainController::class, 'logout');
 
 Route::middleware([
     'auth:sanctum',

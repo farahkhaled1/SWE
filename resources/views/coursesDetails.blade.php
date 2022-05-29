@@ -66,79 +66,16 @@
                     <th class="u-table-cell">Doctor's name</th>
                   </tr>
                 </thead>
+                @foreach ($courses as $row)
                 <tbody class="u-align-center u-table-alt-white u-table-body u-text-custom-color-4 u-white u-table-body-1">
                   <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-6">Image Proccessing</td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-7">  AI374</td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">4</td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">Alaa Hamdy</td>
+                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-6">{{ $row->title }}</td>
+                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-7">{{$row->code}}</td>
+                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">{{$row->credit_hours}}</td>
+                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">{{$row->assistant}}</td>
                   </tr>
-                  <tr style="height: 57px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-11"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-12"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-13"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">4</td>
-                    
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-16"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-17"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-18"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">4</td>
-                   
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-21"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-22"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-23"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">4</td>
-                    
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-26"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-27"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-28"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">4</td>
-                   
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-31"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-32"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-33"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">4</td>
-                    
-                  </tr>
-                  <tr style="height: 57px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-36"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-37"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-38"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">4</td>
-                   
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-41">
-                      <br>
-                    </td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-42"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-43"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">4</td>
-                    
-                   
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-46"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-47"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-48"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">4</td>
-                   
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-51"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-52"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-53"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">4</td>
-                    
-                  </tr>
+                  @endforeach
+              
                 </tbody>
               </table>
             </div>
