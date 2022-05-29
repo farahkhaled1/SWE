@@ -3,7 +3,13 @@
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\DemoController;
 use Illuminate\Support\Facades\Route;
+<<<<<<< Updated upstream
 
+=======
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\DrCrudLarvel;
+use App\Http\Controllers\DrDeleteController;
+>>>>>>> Stashed changes
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,6 +30,7 @@ Route::get('/dbconn', function () {
     return view('dbconn');
 });
 
+<<<<<<< Updated upstream
 
 // Route::get('/login', function () {
 //     return view('login');
@@ -71,13 +78,12 @@ Route::middleware([
 
 Route::post('/specs1/create',[Controller::class,'update_profile']);
 Route::get('/viewProfile', function  () {
-    return view('viewProfile');
-});
-
-
+=======
 Route::get('/viewProfile', function () {
+>>>>>>> Stashed changes
     return view('viewProfile');
 });
+
 
 Route::get('/admin', function () {
     return view('AdminMpg');
@@ -143,6 +149,7 @@ Route::get('/allforms', function () {
     return view('AllForms');
 });
 
+<<<<<<< Updated upstream
 Route::get('/assignment0', function () {
     return view('assignment0');
 });
@@ -151,6 +158,8 @@ Route::get('/assignment1', function () {
     return view('assignment1');
 });
 
+=======
+>>>>>>> Stashed changes
 
 Route::get('/test', function () {
     return view('test');
@@ -158,14 +167,20 @@ Route::get('/test', function () {
 //Route::get('courses', [CourseController::class, 'show']);
 Route::get('/courses', 'App\Http\Controllers\CourseController@show');
 // Route::get('/assign1',[CourseContoller::class,'show']);
+<<<<<<< Updated upstream
 Route::get('assign1', [CourseController::class, 'show']);
 
 Route::get('coursesDetails',[CourseController::class,'show1']);
+=======
+
+Route::get('assign1',[CourseController::class,'show']);
+>>>>>>> Stashed changes
 
 Route::get('/doctordetails', function () {
     return view('doctorDetails');
 });
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Route::get('/coursesdetails', function () {
     return view('coursesDetails');
@@ -173,6 +188,27 @@ Route::get('/coursesdetails', function () {
 =======
 // Route::get('/coursesDetails', function () {
 //     return view('coursesDetails');
+=======
+
+Route::get('/adddoctor', function () {
+    return view('addDoctor');
+});
+
+Route::get('courses','CourseController@assign1');
+
+Route::get('doctordetails',[CourseController::class,'showDr']);
+
+Route::get('addDR',[DrCrudLarvel::class ,'index'])->name('dr');
+Route::post('addDR',[DrCrudLarvel::class ,'addDR'])->name('drr');
+Route::post('insert',[DrCrudLarvel::class ,'insert'])->name('drrr');
+//Route::get('/addDR','DrCrudLarvel@addDR');
+
+Route::get('doctordetails',[DrDeleteController::class,'list']);
+
+
+// Route::get('/login', function () {
+//     return view('login');
+>>>>>>> Stashed changes
 // });
 >>>>>>> Stashed changes
 

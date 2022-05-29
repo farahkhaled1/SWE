@@ -23,6 +23,7 @@
 		"@type": "Organization",
 		"name": "",
 		"logo": "images/logo.png"
+<<<<<<< Updated upstream
 }
   </script>
   <meta name="theme-color" content="#478ac9">
@@ -71,6 +72,41 @@
               </p>
               <a href="{{url('specs1')}}"
                 class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-text-body-color u-btn-3">Enter</a>
+=======
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="All Forms">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-a93c"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="654" data-image-height="194">
+          <img src="{{url('images/logo.png')}}" class="u-logo-image u-logo-image-1">
+        </a>
+      </div></header>
+    <section class="u-align-center u-clearfix u-section-1" id="sec-205a">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1">Forms</h2>
+        <p class="u-text u-text-default u-text-2">All This Forms should be submitted before the specified deadline.</p>
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">                                                                                                                        
+            <div class="u-container-style u-list-item u-repeater-item">                                                                                    
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1"><span class="u-file-icon u-icon u-icon-circle u-white u-icon-1"><img src= "{{url('images/form1.png')}}" alt=""></span>
+                <p class="u-align-center u-text u-text-custom-color-1 u-text-default u-text-3">Course Assesment Form</p>
+                <a href="{{url('courseAssesment')}}" class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-none u-text-body-color u-btn-1">Enter</a>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2"><span class="u-file-icon u-icon u-icon-circle u-white u-icon-2"><img src="{{url('images/form2.png')}}" alt=""></span>
+                <p class="u-align-center u-text u-text-custom-color-1 u-text-default u-text-4">Assignemnt Assesment Form</p>
+                <a href="{{url('assign1')}}" class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-text-body-color u-btn-2">Enter</a>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3"><span class="u-file-icon u-icon u-icon-circle u-white u-icon-3"><img src= "{{url('images/form3.png')}}" alt=""></span>
+                <p class="u-align-center u-text u-text-custom-color-1 u-text-default u-text-5">Course Specification Form</p>
+                <a href="{{url('coursespecs4')}}" class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-text-body-color u-btn-3">Enter</a>
+              </div>
+>>>>>>> Stashed changes
             </div>
           </div>
         </div>

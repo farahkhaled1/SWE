@@ -24,4 +24,13 @@ class CourseController extends Controller
         // return view('assign1',compact('Course'));
       
     }
+
+    public function showDr()
+    {
+        
+        $courses = courses::all(); #courses::all() is the name of class in the model 
+        return view('doctordetails', compact('courses')); #courses here is the name of the variable in the previous line in class
+        return $courses;
+        // return view('assign1',compact('Course')); 
+    }
 }

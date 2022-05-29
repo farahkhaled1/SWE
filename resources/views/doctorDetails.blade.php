@@ -41,7 +41,7 @@
     </section>
     <section class="u-align-center u-clearfix u-gradient u-section-2" id="carousel_2cbc">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <a href="{{url('adddoctor')}}" class="u-border-none u-btn u-button-style u-custom-color-4 u-hover-custom-color-3 u-btn-1">Add proffesor</a>
+        <a href="{{url('addDR')}}" class="u-border-none u-btn u-button-style u-custom-color-4 u-hover-custom-color-3 u-btn-1">Add proffesor</a>
         <div class="u-container-style u-custom-color-4 u-group u-shape-rectangle u-group-1">
           <div class="u-container-layout u-container-layout-1">
             <h4 class="u-text u-text-white u-text-1">MIU Professor Table</h4>
@@ -67,95 +67,31 @@
                     <th class="u-table-cell">Delete</th>
                   </tr>
                 </thead>
+                @foreach($courses as $row)
                 <tbody class="u-align-center u-table-alt-white u-table-body u-text-custom-color-4 u-white u-table-body-1">
                   <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-6">Alaa Hamdy</td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-7"> 200398</td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8">Image Proccessing</td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-9"> AI374</td>
+                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-6">{{$row->assistant}}</td>
+                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-7"> {{$row->coordinator_id}}</td>
+                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8"> {{$row->title}}</td>
+                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-9"> {{$row->code}}</td>
                     <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-10"></td>
                   </tr>
-                  <tr style="height: 57px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-11"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-12"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-13"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-14"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-15"></td>
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-16"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-17"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-18"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-19"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-20"></td>
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-21"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-22"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-23"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-24"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-25"></td>
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-26"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-27"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-28"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-29"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-30"></td>
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-31"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-32"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-33"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-34"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-35"></td>
-                  </tr>
-                  <tr style="height: 57px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-36"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-37"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-38"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-39"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-white u-table-cell-40"></td>
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-41">
-                      <br>
-                    </td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-42"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-43"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-44"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-45"></td>
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-46"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-47"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-48"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-49"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-50"></td>
-                  </tr>
-                  <tr style="height: 58px;">
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-51"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-52"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-53"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-54"></td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-55"></td>
-                  </tr>
+                  @endforeach
                 </tbody>
               </table>
             </div>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-2">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-3">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-4">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-5">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-6">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-7">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-8">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-9">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-10">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-none u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-11">Delete</a>
-          </div>
-        </div>
-      </div>
+            <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-2">Delete</a>
+           <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-4">Delete</a>
+            <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-5">Delete</a>
+            <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-6">Delete</a>
+             <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-7">Delete</a> 
+            <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-8">Delete</a>
+            <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-9">Delete</a>
+             <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-10">Delete</a>
+            <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-11">Delete</a>
+          <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
     </section>
     
     
