@@ -89,9 +89,9 @@
             <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-9">Delete</a>
              <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-10">Delete</a>
             <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-11">Delete</a>
-          <!-- </div> -->
-        <!-- </div> -->
-      <!-- </div> -->
+          </div>
+        </div>
+      </div>
     </section>
     
     
