@@ -55,8 +55,8 @@
                     </span>
                     <span style="font-weight: 700;">
                       <span style="font-weight: 400;">
-                        <span style="font-size: 1.125rem;">I</span>
-                        <span style="font-size: 1.125rem;">mage Processing&nbsp;</span>
+                        
+                        <span style="font-size: 1.125rem;">Image Processing&nbsp;</span>
                       </span>
                       <span style="font-size: 1.125rem;"></span>
                     </span>
