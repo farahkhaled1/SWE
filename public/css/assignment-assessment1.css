@@ -1,0 +1,89 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 686px;
+}
+
+.u-section-1 .u-table-1 {
+  margin-top: 42px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-table-entity-1 {
+  min-height: 100px;
+}
+
+.u-section-1 .u-table-header-1 {
+  font-weight: 700;
+  background-image: none;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 50px auto 0 14px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: -45px 201px 0 auto;
+}
+
+.u-section-1 .u-btn-2 {
+  letter-spacing: 1px;
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  background-image: none;
+  margin: 57px auto 20px;
+  padding: 13px 53px 14px 52px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 151px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 95px;
+  }
+}
+
+#signature {
+  margin-left: -900px;
+  margin-top: 50px;
+  font-size: large;
+}
+
+div.scrollmenu {
+  background-color: rgb(255, 255, 255);
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: rgb(252, 246, 246);
+}
+.u-section-1 {
+  min-height: 1415px;
+}
+#currentDate {
+  margin-left: 1000px;
+  margin-top: 230px;
+}
