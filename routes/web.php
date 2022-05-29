@@ -160,14 +160,21 @@ Route::get('/courses', 'App\Http\Controllers\CourseController@show');
 // Route::get('/assign1',[CourseContoller::class,'show']);
 Route::get('assign1', [CourseController::class, 'show']);
 
+Route::get('coursesDetails',[CourseController::class,'show1']);
 
 Route::get('/doctordetails', function () {
     return view('doctorDetails');
 });
 
+<<<<<<< Updated upstream
 Route::get('/coursesdetails', function () {
     return view('coursesDetails');
 });
+=======
+// Route::get('/coursesDetails', function () {
+//     return view('coursesDetails');
+// });
+>>>>>>> Stashed changes
 
 
 Route::get('courses', 'CourseController@assign1');
