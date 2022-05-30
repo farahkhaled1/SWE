@@ -194,7 +194,11 @@ Route::get('doctordetails',[CourseController::class,'showDr']);
 // Route::post('insert',[DrCrudLarvel::class ,'insert'])->name('drrr');
 // //Route::get('/addDR','DrCrudLarvel@addDR');
 
+// Route::resource('list', DrDeleteController::class);
+
+
 Route::get('list',[DrDeleteController::class,'list']);
+Route::get('delete/{code}',[DrDeleteController::class,'delete']);
 
 
 // Route::get('/login', function () {

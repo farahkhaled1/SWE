@@ -74,24 +74,14 @@
                     <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-7"> {{$row->coordinator_id}}</td>
                     <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-8"> {{$row->title}}</td>
                     <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-9"> {{$row->code}}</td>
-                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-10"></td>
+                    <td class="u-border-2 u-border-grey-75 u-table-cell u-table-cell-10"> 
+                    <a href ="{{url('delete/'.$row->code)}}">Delete</a> 
+                    </td>
                   </tr>
                   @endforeach
                 </tbody>
               </table>
             </div>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-2">Delete</a>
-           <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-4">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-5">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-6">Delete</a>
-             <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-7">Delete</a> 
-            <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-8">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-9">Delete</a>
-             <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-10">Delete</a>
-            <a href="https://nicepage.com/static-site-generator" class="u-border-2 u-btn u-button-style u-custom-color-3 u-hover-palette-1-dark-1 u-btn-11">Delete</a>
-          </div>
-        </div>
-      </div>
     </section>
     
     
