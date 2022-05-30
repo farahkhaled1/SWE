@@ -18,4 +18,12 @@ class Controller extends BaseController
         DB::table('aims')->insert(['spec_id' => '1', 'content' => $content]);
         return response()->json(['status' => 'DONE']);
     }
+
+    public function update_ku(Request $request)
+    {
+        $content = $request->content;
+        DB::table('ilos')->insert(['content' => $content, 'type' => 'k&u', 'specs(form)_id' => '1']);
+
+        return response()->json(['status' => 'DONE']);
+    }
 }
