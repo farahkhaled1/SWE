@@ -70,40 +70,43 @@
                 </th>
                 <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-7">Assignment<br>Assess
                 </th>
-                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-8">Exam</th>
-                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-9">Model<br>Ans
+                <!-- <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-8">Midterm Exam</th>
+                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-9">Model<br>Ans Midterm
                 </th>
-                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-10">Assessment<br>Criteria
+                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-10">Assessment<br>Criteria Midterm
                 </th>
                 <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-11">Course<br>Report
                 </th>
-                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-12">Exam</th>
-                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-13">Model<br>Ans.
+                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-12">Final Exam</th>
+                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-13">Model<br>Ans. Final
                 </th>
-                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-14">Assesment<br>Crtiria
-                </th>
+                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-14">Assesment<br>Crtiria Final
+                </th> -->
               </tr>
             </thead>
-            <tbody class="u-table-body">
+
+            @foreach ($courses as $row)
+            <tbody class="u-table-body">    
               <tr style="height: 58px;">
-                <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-15">Row 1</td>
-                <td class="u-border-1 u-border-grey-30 u-table-cell">Dr.Emad Yacoub</td>
-                <td class="u-border-1 u-border-grey-30 u-table-cell">Dr.Emad&nbsp;<br>Yacoub
+                <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-15">1</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell">{{$row->code}}</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell">{{$row->assistant}}&nbsp;<br>
                 </td>
-                <td class="u-border-1 u-border-grey-30 u-table-cell"> Suplementary&nbsp;<br>Mathmatics
+                <td class="u-border-1 u-border-grey-30 u-table-cell"> {{$row->title}}&nbsp;<br>
                 </td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
+                <!-- <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
-                <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
-                <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td> -->
               </tr>
-              <tr style="height: 76px;">
+              @endforeach
+              <!-- <tr style="height: 76px;">
                 <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-29">Row 2</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">Description</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">dr</td>
@@ -119,6 +122,7 @@
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
               </tr>
+              
               <tr style="height: 76px;">
                 <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-43">Row 3</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">Description</td>
@@ -150,11 +154,21 @@
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
-              </tr>
+              </tr> -->
+              <!-- <div class="u-container-layout">
+            <p class="u-text u-text-default u-text-3">Midterm Exam</p>
+          </div>
+        </div>
+        <div class="u-border-3 u-border-custom-color-2 u-container-style u-custom-color-2 u-group u-group-4">
+          <div class="u-container-layout">
+            <p class="u-text u-text-default u-text-4">Final Exam</p>
+          </div>
+        </div>
             </tbody>
           </table>
         </div>
-        <div class="u-border-3 u-border-custom-color-2 u-container-style u-custom-color-2 u-group u-group-3">
+         -->
+        <!-- <div class="u-border-3 u-border-custom-color-2 u-container-style u-custom-color-2 u-group u-group-3">
           <div class="u-container-layout">
             <p class="u-text u-text-default u-text-3">Midterm Exam</p>
           </div>
@@ -164,12 +178,13 @@
             <p class="u-text u-text-default u-text-4">Final Exam</p>
           </div>
         </div>
-      </div>
+      </div> -->
+     
     </section>
     
     
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-0322"></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
+    <!-- <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-0322"></footer> --> 
+    <!-- <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
         <span>Website Templates</span>
       </a>
@@ -179,6 +194,7 @@
       <a class="u-link" href="" target="_blank">
         <span>Website Builder Software</span>
       </a>. 
-    </section>
+    </section> -->
   </body>
+  
 </html>

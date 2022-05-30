@@ -4,8 +4,12 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\DemoController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CourseController;
+<<<<<<< Updated upstream
 use App\Http\Controllers\DrCrudLarvel;
 use App\Http\Controllers\DrDeleteController;
+=======
+
+>>>>>>> Stashed changes
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -149,6 +153,14 @@ Route::get('/assignment1', function () {
     return view('assignment1');
 });
 
+<<<<<<< Updated upstream
+=======
+Route::get('/checklist', function () {
+    return view('Checklist');
+});
+
+
+>>>>>>> Stashed changes
 Route::get('/test', function () {
     return view('test');
 });
@@ -157,7 +169,8 @@ Route::get('/courses', 'App\Http\Controllers\CourseController@show');
 // Route::get('/assign1',[CourseContoller::class,'show']);
 Route::get('assign1', [CourseController::class, 'show']);
 
-Route::get('coursesDetails',[CourseController::class,'show1']);
+Route::get('coursesDetails',[CourseController::class,'CourseTable']);
+Route::get('checklist',[CourseController::class,'Checklist']);
 
 Route::get('assign1',[CourseController::class,'show']);
 
@@ -165,10 +178,15 @@ Route::get('/doctordetails', function () {
     return view('doctorDetails');
 });
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 Route::get('/coursesdetails', function () {
     return view('coursesDetails');
 });
 
+<<<<<<< Updated upstream
 Route::get('/adddoctor', function () {
     return view('addDoctor');
 });
@@ -188,6 +206,12 @@ Route::get('list',[DrDeleteController::class,'list']);
 // Route::get('/login', function () {
 //     return view('login');
 // });
+=======
+// Route::get('/coursesDetails', function () {
+//     return view('coursesDetails');
+// });
+
+>>>>>>> Stashed changes
 
 
 Route::get('courses', 'CourseController@assign1');
