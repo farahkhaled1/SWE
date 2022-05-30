@@ -25,7 +25,7 @@ class CourseController extends Controller
         // return view('assign1',compact('Course'));
       
     }
-<<<<<<< Updated upstream
+
 
     public function showDr()
     {
@@ -34,7 +34,7 @@ class CourseController extends Controller
         return view('doctordetails', compact('courses')); #courses here is the name of the variable in the previous line in class
         return $courses;
         // return view('assign1',compact('Course')); 
-=======
+    }
     public function Checklist()
     {
         
@@ -43,6 +43,6 @@ class CourseController extends Controller
         return $courses;
         
       
->>>>>>> Stashed changes
+
     }
 }
