@@ -66,10 +66,10 @@
         <img class="u-image u-image-default u-preserve-proportions u-image-2" src="{{url('images/form-img3.png')}}" alt="" data-image-width="855" data-image-height="724">
         <a href="https://nicepage.com/k/card-html-templates" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-1">Courses</a>
         <img class="u-image u-image-default u-image-3" src="{{url('images/form-img7.png')}}" alt="" data-image-width="421" data-image-height="375">
-        <a href="https://nicepage.com/website-design" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-2">Forms</a>
+        <a href="{{url('allforms')}}" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-2">Forms</a>
         <img class="u-image u-image-default u-image-4" src="{{url('images/staff-icon.png')}}" alt="" data-image-width="225" data-image-height="225">
-        <a href="https://nicepage.com/landing-page" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-3">Professors </a>
-        <a href="https://nicepage.com/html-website-builder" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-4">Checklist<br>
+        <a href="{{url('doctordetails')}}" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-3">Professors </a>
+        <a href="{{url('Checklist')}}" class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-4">Checklist<br>
         </a>
       </div>
     </section>
