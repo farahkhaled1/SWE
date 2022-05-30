@@ -26,9 +26,17 @@ class CourseController extends Controller
       
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
     public function showDr()
+=======
+    public function showdoctord()
+>>>>>>> Stashed changes
+=======
+    public function showdoctord()
+>>>>>>> Stashed changes
 =======
     public function showdoctord()
 >>>>>>> Stashed changes
@@ -37,6 +45,8 @@ class CourseController extends Controller
         $courses = courses::all(); #courses::all() is the name of class in the model 
         return view('doctordetails', compact('courses')); #courses here is the name of the variable in the previous line in class
         return $courses;
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         // return view('assign1',compact('Course')); 
     }
@@ -49,6 +59,14 @@ class CourseController extends Controller
         
       
 
+=======
+        // return view('assign1',compact('Course'));
+      
+>>>>>>> Stashed changes
+=======
+        // return view('assign1',compact('Course'));
+      
+>>>>>>> Stashed changes
 =======
         // return view('assign1',compact('Course'));
       
