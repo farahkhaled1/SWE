@@ -23,7 +23,7 @@
 		"@type": "Organization",
 		"name": "",
 		"logo": "images/logo.png"
-<<<<<<< Updated upstream
+
 }
   </script>
   <meta name="theme-color" content="#478ac9">
