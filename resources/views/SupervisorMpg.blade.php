@@ -90,11 +90,11 @@
         class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-1">view courses</a>
       <img class="u-image u-image-default u-image-3" src="{{url('images/staff-icon.png')}}" alt=""
         data-image-width="421" data-image-height="375">
-      <a href="https://nicepage.com/website-design"
+      <a href="{{url('viewDr')}}"
         class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-2">Doctors</a>
       <img class="u-image u-image-default u-image-4" src="{{url('images/form-img7.png')}}" alt="" data-image-width="225"
         data-image-height="225">
-      <a href="https://nicepage.com/landing-page"
+      <a href="{{url('viewDr')}}"
         class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-3">signing forms</a>
       <a href="https://nicepage.com/html-website-builder"
         class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-4">checklist<br>
