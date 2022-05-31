@@ -15,11 +15,11 @@ class VerifyCsrfToken extends Middleware
         'specs1/updateaims',
         //
 
-        'specs2/updateku',
-        'specs2/updatepps',
+        'specs2/updatedku',
+        'specs2/updatedpps',
 
-        'specs2/updategts',
+        'specs2/updatedgts',
 
-        'specs2/updateis'
+        'specs2/updatedis'
     ];
 }

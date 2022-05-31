@@ -1,4 +1,5 @@
 @include('header2')
+@include('headerilos')
 <!DOCTYPE html>
 <html style="font-size: 16px">
 
@@ -26,6 +27,7 @@
 <body class="u-body u-xl-mode">
 
   </header>
+  </header>
   <section class="u-align-center u-border-15 u-border-black u-border-no-bottom u-clearfix u-section-1" id="sec-41b1">
     <div class="u-clearfix u-sheet u-sheet-1">
       <div class="u-align-center u-border-2 u-border-grey-75 u-grey-70 u-shape u-shape-rectangle u-shape-1"></div>
@@ -49,7 +51,7 @@
 
 
 
-            <form action="http://127.0.0.1:8000/specs2/updateku" method="POST"
+            <form action="http://127.0.0.1:8000/specs2/updatedku" method="POST"
               class="u-align-left u-text u-text-4 u-text-default ">
               <span style="font-size: 50%" contenteditable="true">
 
@@ -72,7 +74,7 @@
       <div class="u-form u-form-1">
 
         <div class="u-form u-form-1">
-          <form action="http://127.0.0.1:8000/specs2/updateku" method="POST"
+          <form action="http://127.0.0.1:8000/specs2/updatedku" method="POST"
             class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" style="padding: 10px;">
             <div class="u-form-group u-form-textarea u-form-group-1">
               <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>

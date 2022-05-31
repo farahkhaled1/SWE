@@ -4,7 +4,7 @@
 <script class="u-script" type="text/javascript" src="{{url('js/nicepage.js')}}" defer=""></script>
 
 <header class="u-header u-section-row-container" id="sec-f4f6" data-animation-name="" data-animation-duration="0"
-    data-animation-delay="0" data-animation-direction="">
+    data-animation-delay="0" data-animation-direction="" style="margin-top:50px">
     <div class="u-section-rows">
         <div class="u-gradient u-section-row u-section-row-1" data-animation-name="" data-animation-duration="0"
             data-animation-delay="0" data-animation-direction="" id="sec-5f8d">

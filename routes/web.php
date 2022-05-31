@@ -3,10 +3,13 @@
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DemoController;
-use App\Http\Controllers\DrDeleteController;
 use Illuminate\Support\Facades\Route;
 // use App\Http\Controllers\CourseController;
 
+//use App\Http\Controllers\CourseController;
+
+use App\Http\Controllers\DrCrudLarvel;
+use App\Http\Controllers\DrDeleteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,6 +26,22 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/specs2/ilos1', function () {
+    return view('ilos1');
+});
+
+Route::get('/specs2/ilos2', function () {
+    return view('ilos2');
+});
+
+Route::get('/specs2/ilos3', function () {
+    return view('ilos3');
+});
+
+Route::get('/specs2/ilos4', function () {
+    return view('ilos4');
+});
+
 
 Route::get('/dbconn', function () {
     return view('dbconn');
@@ -31,6 +50,8 @@ Route::get('/dbconn', function () {
 
 Route::get('doctordetails', [CourseController::class, 'showdoctord']);
 
+
+Route::resource('ilos', kucontroller::class);
 
 // Route::get('/login', function () {
 //     return view('login');
@@ -77,10 +98,10 @@ Route::middleware([
 });
 
 Route::post('/specs1/updateaims', [Controller::class, 'update_aims']);
-Route::post('/specs2/updateku', [Controller::class, 'update_ku']);
-Route::post('/specs2/updateis', [Controller::class, 'update_is']);
-Route::post('/specs2/updatepps', [Controller::class, 'update_pps']);
-Route::post('/specs2/updategts', [Controller::class, 'update_gts']);
+Route::post('/specs2/updatedku', [Controller::class, 'update_ku']);
+Route::post('/specs2/updatedis', [Controller::class, 'update_is']);
+Route::post('/specs2/updatedpps', [Controller::class, 'update_pps']);
+Route::post('/specs2/updatedgts', [Controller::class, 'update_gts']);
 
 
 
@@ -175,9 +196,12 @@ Route::get('/assignment1', function () {
     return view('assignment1');
 });
 
+
 Route::get('/checklist', function () {
     return view('Checklist');
 });
+
+
 
 Route::get('/test', function () {
     return view('test');
@@ -208,6 +232,8 @@ Route::get('/adddoctor', function () {
 
 
 
+
+
 Route::get('courses', 'CourseController@assign1');
 
 Route::get('doctordetails', [CourseController::class, 'showDr']);
@@ -221,14 +247,24 @@ Route::get('doctordetails', [CourseController::class, 'showDr']);
 Route::get('list',[DrDeleteController::class,'list']);
 Route::get('delete/{code}',[DrDeleteController::class,'delete']);
 Route::get('list', [DrDeleteController::class, 'list']);
+// Route::resource('list', DrDeleteController::class);
+
+
+Route::get('delete/{code}', [DrDeleteController::class, 'delete']);
+
 
 
 // Route::get('/login', function () {
 //     return view('login');
 // });
+
+
 // Route::get('/coursesDetails', function () {
 //     return view('coursesDetails');
 // });
+
+
+
 
 // Route::get('/coursesDetails', function () {
 //     return view('coursesDetails');

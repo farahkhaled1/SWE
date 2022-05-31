@@ -24,11 +24,12 @@ class Controller extends BaseController
 
     public function update_ku(Request $request)
     {
+        // dd($request);
         $content = $request->content;
         DB::table('ilos')->insert(['content' => $content, 'type' => 'k-u', 'specs(form)_id' => '1']);
 
-        // return 'specs2';
-        // return view('specs2');
+
+        return view('ilos2');
     }
 
     public function update_is(Request $request)
@@ -37,17 +38,20 @@ class Controller extends BaseController
         DB::table('ilos')->insert(['content' => $content, 'type' => 'i-s', 'specs(form)_id' => '1']);
 
         // return response()->json(['status' => 'DONE']);
+        return view('ilos3');
     }
 
     public function update_pps(Request $request)
     {
         $content = $request->content;
         DB::table('ilos')->insert(['content' => $content, 'type' => 'p-p-s', 'specs(form)_id' => '1']);
+        return view('ilos4');
     }
 
     public function update_gts(Request $request)
     {
         $content = $request->content;
         DB::table('ilos')->insert(['content' => $content, 'type' => 'g-t-s', 'specs(form)_id' => '1']);
+        return view('specs2');
     }
 }
