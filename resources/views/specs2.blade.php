@@ -22,6 +22,7 @@
 
 {{-- ////////////////// --}}
 
+
 <body class="u-body u-xl-mode">
 
   </header>
@@ -35,6 +36,9 @@
       <h2 class="u-text u-text-default u-text-white u-text-2">
         <b>&nbsp;Intended learning outcomes of course (ILOs)</b>
       </h2>
+      {{-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA --}}
+
+
       <div class="u-container-style u-group u-group-1">
         <div class="u-container-layout u-container-layout-1">
           <h2 class="u-align-left u-text u-text-3">
@@ -45,7 +49,7 @@
 
 
 
-            <form action="http://127.0.0.1:8000/specs2/update" method="POST"
+            <form action="http://127.0.0.1:8000/specs2/updateku" method="POST"
               class="u-align-left u-text u-text-4 u-text-default ">
               <span style="font-size: 50%" contenteditable="true">
 
@@ -65,102 +69,51 @@
 
         </div>
       </div>
+      <div class="u-form u-form-1">
 
-      {{-- <div class="u-form u-form-1">
-        <form action="http://127.0.0.1:8000/specs2/update" method="POST"
-          class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" style="padding: 10px;">
-          <div class="u-form-group u-form-textarea u-form-group-1">
-            <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
-            <textarea rows="5" cols="50" id="textarea-c3fb" name="content"
-              class="u-border-5 u-border-grey-75 u-input u-input-rectangle u-palette-5-light-2 u-radius-6 u-input-1"
-              required=""
-              placeholder="By the end of this course, the student should demonstrate comprehensive knowledge and clear understanding of the following:"></textarea>
-          </div>
-          <div class="u-align-center u-form-group u-form-submit">
+        <div class="u-form u-form-1">
+          <form action="http://127.0.0.1:8000/specs2/updateku" method="POST"
+            class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" style="padding: 10px;">
+            <div class="u-form-group u-form-textarea u-form-group-1">
+              <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
+              <textarea rows="5" cols="50" id="textarea-c3fb" name="content"
+                class="u-border-3 u-border-grey-75 u-input u-input-rectangle u-palette-5-light-2 u-radius-6 u-input-1"
+                required=""
+                placeholder="By the end of this course, the student should demonstrate comprehensive knowledge and clear understanding of the following:"></textarea>
+            </div>
+            <div class="u-align-center u-form-group u-form-submit">
 
-            <input type="submit" value="Next"
-              class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
-          </div>
-          <input type="hidden" value="" name="recaptchaResponse">
+              <input type="submit" value="submit"
+                class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
+            </div>
+            <input type="hidden" value="" name="recaptchaResponse">
+          </form>
+        </div>
+
+
+        <div class="u-form-send-message u-form-send-success">
+          Thank you! Your message has been sent.
+        </div>
+        <div class="u-form-send-error u-form-send-message">
+          Unable to send your message. Please fix errors then try again.
+        </div>
+        <input type="hidden" value="" name="recaptchaResponse" />
         </form>
-      </div> --}}
-
-
-      {{-- <div class="u-form u-form-1">
-        <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom"
-          name="form" style="padding: 10px">
-          <div class="u-form-group u-form-textarea u-form-group-2">
-            <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
-            <textarea rows="5" cols="50" id="textarea-c3fb" name="textarea"
-              class="u-border-5 u-border-grey-75 u-input u-input-rectangle u-palette-5-light-2 u-radius-6 u-input-1"
-              required=""
-              placeholder="By the end of this course, the student should demonstrate comprehensive knowledge and clear understanding of the following: "></textarea>
-          </div> --}}
-
-
-          <div class="u-form u-form-1">
-            {{-- <form action="http://127.0.0.1:8000/specs2/update" method="POST"
-              class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" style="padding: 10px;">
-              <div class="u-form-group u-form-textarea u-form-group-1">
-                <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
-                <textarea rows="5" cols="50" id="textarea-c3fb" name="content"
-                  class="u-border-5 u-border-grey-75 u-input u-input-rectangle u-palette-5-light-2 u-radius-6 u-input-1"
-                  required=""
-                  placeholder="By the end of this course, the student should demonstrate comprehensive knowledge and clear understanding of the following:"></textarea>
-              </div>
-
-
-              <a href="{{url('specs3')}}"
-                class="u-border-none u-btn u-button-style u-hover-palette-5-dark-3 u-palette-5-dark-2 u-btn-2">NEXT</a>
-
-
-              <a href="#"
-                class="u-align-center u-border-none u-btn u-btn-submit u-button-style u-none u-text-body-alt-color u-btn-1">Submit</a>
-
-
-              <div class="u-align-center u-form-group u-form-submit">
-                <a href="#"
-                  class="u-border-none u-btn u-btn-submit u-button-style u-none u-text-body-alt-color u-btn-2">Submit</a>
-                <input type="submit" value="submit" class="u-form-control-hidden" />
-              </div> --}}
-              <div class="u-form u-form-1">
-                <form action="http://127.0.0.1:8000/specs2/update" method="POST"
-                  class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom"
-                  style="padding: 10px;">
-                  <div class="u-form-group u-form-textarea u-form-group-1">
-                    <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
-                    <textarea rows="5" cols="50" id="textarea-c3fb" name="content"
-                      class="u-border-3 u-border-grey-75 u-input u-input-rectangle u-palette-5-light-2 u-radius-6 u-input-1"
-                      required=""
-                      placeholder="By the end of this course, the student should demonstrate comprehensive knowledge and clear understanding of the following:"></textarea>
-                  </div>
-                  <div class="u-align-center u-form-group u-form-submit">
-
-                    <input type="submit" value="Next"
-                      class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
-                  </div>
-                  <input type="hidden" value="" name="recaptchaResponse">
-                </form>
-              </div>
-
-
-              <div class="u-form-send-message u-form-send-success">
-                Thank you! Your message has been sent.
-              </div>
-              <div class="u-form-send-error u-form-send-message">
-                Unable to send your message. Please fix errors then try again.
-              </div>
-              <input type="hidden" value="" name="recaptchaResponse" />
-            </form>
-          </div>
-          <h2 class="u-text u-text-white u-text-4">
-            <b>B- Professional information</b>
-          </h2>
-
       </div>
+      <h2 class="u-text u-text-white u-text-4">
+        <b>B- Professional information</b>
+      </h2>
+
+    </div>
     </div>
     </div>
   </section>
+
+  {{-- ///////////////////////////////////////////// --}}
+
+  {{-- BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB --}}
+
+
   <section class="u-align-center u-border-15 u-border-grey-90 u-border-no-bottom u-border-no-top u-clearfix u-section-2"
     id="carousel_cbe0">
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
@@ -171,7 +124,8 @@
             </span>
             <br />
 
-            <form action="/checkbox-example" method="POST" class="u-align-left u-text u-text-4 u-text-default ">
+            <form action="http://127.0.0.1:8000/specs2/updateis" method="POST"
+              class="u-align-left u-text u-text-4 u-text-default ">
               <span style="font-size: 50%" contenteditable="true">
                 @csrf
 
@@ -186,9 +140,44 @@
               </span>
             </form>
           </h2>
+
           <div class="u-form u-form-1">
-            <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form"
-              source="custom" name="form" style="padding: 10px">
+
+            <div class="u-form u-form-1">
+              <form action="http://127.0.0.1:8000/specs2/updateis" method="POST"
+                class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom"
+                style="padding: 10px;">
+                <div class="u-form-group u-form-textarea u-form-group-1">
+                  <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
+                  <textarea rows="5" cols="50" id="textarea-c3fb" name="content"
+                    class="u-border-3 u-border-grey-75 u-input u-input-rectangle u-palette-5-light-2 u-radius-6 u-input-1"
+                    required="" placeholder="By the end of this course, the student should be able to:"></textarea>
+                </div>
+                <div class="u-align-center u-form-group u-form-submit">
+
+                  <input type="submit" value="submit"
+                    class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
+                </div>
+                <input type="hidden" value="" name="recaptchaResponse">
+              </form>
+            </div>
+
+
+            <div class="u-form-send-message u-form-send-success">
+              Thank you! Your message has been sent.
+            </div>
+            <div class="u-form-send-error u-form-send-message">
+              Unable to send your message. Please fix errors then try again.
+            </div>
+            <input type="hidden" value="" name="recaptchaResponse" />
+            </form>
+          </div>
+
+
+          {{-- <div class="u-form u-form-1">
+            <form action="http://127.0.0.1:8000/specs2/updateis" method="POST"
+              class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form"
+              style="padding: 10px">
               <div class="u-form-group u-form-textarea u-form-group-1">
                 <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
                 <textarea rows="5" cols="50" id="textarea-c3fb" name="textarea"
@@ -206,14 +195,24 @@
               <div class="u-form-send-error u-form-send-message">
                 Unable to send your message. Please fix errors then try again.
               </div>
+              <div class="u-align-center u-form-group u-form-submit">
+
+                <input type="submit" value="submit"
+                  class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
+              </div>
               <input type="hidden" value="" name="recaptchaResponse" />
-            </form>
+            </form> --}}
 
           </div>
         </div>
       </div>
     </div>
   </section>
+
+
+  {{-- CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC --}}
+
+
   <section class="u-align-center u-border-16 u-border-grey-75 u-border-no-bottom u-border-no-top u-clearfix u-section-3"
     id="carousel_e52f">
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
@@ -223,7 +222,7 @@
           &nbsp;
         </span>
         <br />
-        <form action="/checkbox-example" method="POST" class="u-align-left u-text u-text-4 u-text-default ">
+        <form action="" method="POST" class="u-align-left u-text u-text-4 u-text-default ">
           <span style="font-size: 50%" contenteditable="true">
             @csrf
 
@@ -236,8 +235,9 @@
         </form>
       </h2>
       <div class="u-form u-form-1">
-        <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom"
-          name="form" style="padding: 10px">
+        <form action="http://127.0.0.1:8000/specs2/updatepps" method="POST"
+          class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form"
+          style="padding: 10px">
           <div class="u-form-group u-form-textarea u-form-group-1">
             <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
             <textarea rows="5" cols="50" id="textarea-c3fb" name="textarea"
@@ -247,7 +247,11 @@
           <div class="u-align-center u-form-group u-form-submit">
             <a href="#"
               class="u-border-none u-btn u-btn-submit u-button-style u-none u-text-body-alt-color u-btn-1">Submit</a>
-            <input type="submit" value="submit" class="u-form-control-hidden" />
+            <div class="u-align-center u-form-group u-form-submit">
+
+              <input type="submit" value="submit"
+                class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
+            </div>
           </div>
           <div class="u-form-send-message u-form-send-success">
             Thank you! Your message has been sent.
@@ -260,6 +264,9 @@
       </div>
     </div>
   </section>
+
+
+  {{-- DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD --}}
   <section class="u-align-center u-border-15 u-border-grey-75 u-border-no-top u-clearfix u-section-4"
     id="carousel_f6bb">
     <div class="u-clearfix u-sheet u-sheet-1">
@@ -281,8 +288,9 @@
         </form>
       </h2>
       <div class="u-form u-form-1">
-        <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom"
-          name="form" style="padding: 10px">
+        <form action="http://127.0.0.1:8000/specs2/updategts" method="POST"
+          class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form"
+          style="padding: 10px">
           <div class="u-form-group u-form-textarea u-form-group-1">
             <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
             <textarea rows="5" cols="50" id="textarea-c3fb" name="textarea"
@@ -292,7 +300,11 @@
           <div class="u-align-center u-form-group u-form-submit">
             <a href="#"
               class="u-border-none u-btn u-btn-submit u-button-style u-none u-text-body-alt-color u-btn-1">Submit</a>
-            <input type="submit" value="submit" class="u-form-control-hidden" />
+            <div class="u-align-center u-form-group u-form-submit">
+
+              <input type="submit" value="submit"
+                class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
+            </div>
           </div>
           <div class="u-form-send-message u-form-send-success">
             Thank you! Your message has been sent.
