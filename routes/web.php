@@ -3,19 +3,10 @@
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DemoController;
-//use App\Http\Controllers\deletecontroller;
-use Illuminate\Support\Facades\Route;
-<<<<<<< Updated upstream
-//use App\Http\Controllers\CourseController;
-
-
-
-
-=======
-use App\Http\Controllers\CourseController;
-use App\Http\Controllers\DrCrudLarvel;
 use App\Http\Controllers\DrDeleteController;
->>>>>>> Stashed changes
+use Illuminate\Support\Facades\Route;
+// use App\Http\Controllers\CourseController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,6 +17,7 @@ use App\Http\Controllers\DrDeleteController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -174,26 +166,19 @@ Route::get('/assignment0', function () {
 
 
 
-
+Route::get('/viewDr', function () {
+    return view('viewDrSup');
+});
 
 
 Route::get('/assignment1', function () {
     return view('assignment1');
 });
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 Route::get('/checklist', function () {
     return view('Checklist');
 });
 
-
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 Route::get('/test', function () {
     return view('test');
 });
@@ -211,7 +196,6 @@ Route::get('/doctordetails', function () {
     return view('doctorDetails');
 });
 
-<<<<<<< Updated upstream
 Route::get('/coursesdetails', function () {
     return view('coursesDetails');
 });
@@ -220,10 +204,6 @@ Route::get('/coursesdetails', function () {
 Route::get('/adddoctor', function () {
     return view('addDoctor');
 });
-=======
-
-
->>>>>>> Stashed changes
 
 
 
@@ -237,35 +217,22 @@ Route::get('doctordetails', [CourseController::class, 'showDr']);
 // Route::post('insert',[DrCrudLarvel::class ,'insert'])->name('drrr');
 // //Route::get('/addDR','DrCrudLarvel@addDR');
 
-<<<<<<< Updated upstream
-// Route::resource('list', DrDeleteController::class);
-
 
 Route::get('list',[DrDeleteController::class,'list']);
 Route::get('delete/{code}',[DrDeleteController::class,'delete']);
-=======
 Route::get('list', [DrDeleteController::class, 'list']);
->>>>>>> Stashed changes
 
 
 // Route::get('/login', function () {
 //     return view('login');
 // });
-<<<<<<< Updated upstream
-
-
 // Route::get('/coursesDetails', function () {
 //     return view('coursesDetails');
 // });
 
-
-
-
-=======
 // Route::get('/coursesDetails', function () {
 //     return view('coursesDetails');
 // });
->>>>>>> Stashed changes
 Route::get('courses', 'CourseController@assign1');
 
 Route::get('/adddoctor', function () {
