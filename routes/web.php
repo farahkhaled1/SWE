@@ -3,20 +3,13 @@
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DemoController;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 use App\Http\Controllers\addDoctorController;
 //use App\Http\Controllers\deletecontroller;
-=======
-use App\Http\Controllers\DrDeleteController;
->>>>>>> 687918487153341ea43a46b9d530e7e11bbf2021
->>>>>>> be4d3f6cbf5e4a60c0a077da5ff29e666ce4b1f6
 use Illuminate\Support\Facades\Route;
 // use App\Http\Controllers\CourseController;
 
 //use App\Http\Controllers\CourseController;
-
+use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\DrCrudLarvel;
 use App\Http\Controllers\DrDeleteController;
 /*
@@ -30,13 +23,10 @@ use App\Http\Controllers\DrDeleteController;
 |
 */
 
-<<<<<<< HEAD
 Route::GET('add', [addDoctorController::class, 'Adddata']);
 
 
 
-=======
->>>>>>> 687918487153341ea43a46b9d530e7e11bbf2021
 
 Route::get('/', function () {
     return view('welcome');
@@ -260,8 +250,8 @@ Route::get('doctordetails', [CourseController::class, 'showDr']);
 // //Route::get('/addDR','DrCrudLarvel@addDR');
 
 
-Route::get('list',[DrDeleteController::class,'list']);
-Route::get('delete/{code}',[DrDeleteController::class,'delete']);
+Route::get('list', [DrDeleteController::class, 'list']);
+Route::get('delete/{code}', [DrDeleteController::class, 'delete']);
 Route::get('list', [DrDeleteController::class, 'list']);
 // Route::resource('list', DrDeleteController::class);
 

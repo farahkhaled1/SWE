@@ -53,101 +53,65 @@
             <div class="u-container-style u-group u-group-1">
                 <div class="u-container-layout u-container-layout-1">
                     <h2 class="u-align-left u-text u-text-3">
-                        <span style="font-size: 1.875rem"><b></b><b>&nbsp;a-&nbsp;&nbsp; </b>
+                        <span style="font-size: 1.875rem"><b></b><b>&nbsp;A-&nbsp;&nbsp; </b>
                             <!--[endif]--><b>Knowledge and understanding:</b>&nbsp;&nbsp;
                         </span>
                         <br />
 
+                        <h6>
+                            By the end of this course, the student should demonstrate comprehensive
+                            knowledge and clear understanding of the following:
+                        </h6>
+                        <p style="color: gray">Type in the following text boxes:</p>
+                        <br />
 
 
-                        <form action="http://127.0.0.1:8000/specs2/updatedku" method="POST"
+
+                        <form name="ilos1" action="http://127.0.0.1:8000/specs2/updatedku" method="POST"
                             class="u-align-left u-text u-text-4 u-text-default ">
-                            <span style="font-size: 50%" contenteditable="true">
+                            <div class="u-form u-form-1">
+                                @php
+                                $data = DB::table('constant_ilos')->get();
 
-                                <input type="checkbox" name="ilos[]" value="test "> test <br />
-                                <input type="checkbox" name="ilos[]" value="test"> test <br />
-                                <input type="checkbox" name="ilos[]" value="test"> test <br />
-                                <input type="checkbox" name="ilos[]" value="test"> test <br />
-                                <input type="checkbox" name="ilos[]" value="test"> test <br />
-                                <input type="checkbox" name="ilos[]" value="test "> test <br />
-                                <input type="checkbox" name="ilos[]" value="test"> test <br /><br />
+                                foreach ($data as $key => $value) {
+                                echo '<input style="width: 500px;" name="'.$value->id.'" id="'.$value->id.'"
+                                    value="'.$value->content.'">';
+                                echo '<br>';
 
-                            </span>
+                                }
+                                @endphp
+                                <br>
+                                <textarea rows="5" cols="50" id="textarea" name="content"
+                                    placeholder="other"></textarea>
+                            </div>
 
-
-
-                    </h2>
 
                 </div>
+
             </div>
-            <div class="u-form u-form-1">
-
-                <div class="u-form u-form-1">
-                    <form action="http://127.0.0.1:8000/specs2/updatedku" method="POST"
-                        class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom"
-                        style="padding: 10px;">
-                        <div class="u-form-group u-form-textarea u-form-group-1">
-                            <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
-                            <textarea rows="5" cols="50" id="textarea-c3fb" name="content"
-                                class="u-border-3 u-border-grey-75 u-input u-input-rectangle u-palette-5-light-2 u-radius-6 u-input-1"
-                                required=""
-                                placeholder="By the end of this course, the student should demonstrate comprehensive knowledge and clear understanding of the following:"></textarea>
-                        </div>
-                        <div class="u-align-center u-form-group u-form-submit">
-
-                            <input type="submit" value="submit"
-                                class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
-                        </div>
-                        <input type="hidden" value="" name="recaptchaResponse">
-                    </form>
-                </div>
 
 
-                <div class="u-form-send-message u-form-send-success">
-                    Thank you! Your message has been sent.
-                </div>
-                <div class="u-form-send-error u-form-send-message">
-                    Unable to send your message. Please fix errors then try again.
-                </div>
-                <input type="hidden" value="" name="recaptchaResponse" />
-                </form>
-            </div>
+
+            <input type="submit" value="submit"
+                class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
+
+            </form>
+
+            </h2>
+
+        </div>
+        </div>
+        </div>
+
+
+
+
 
         </div>
         </div>
         </div>
     </section>
 
-    
-
-    {{-- ///////////////////////////////////////////////////////////////////////TWESTTTTTTTTTTTTTTTTTTTTTTTTTTT --}}
-    <!-- Email template drop down start here -->
-    <div class="button dropdown">
-        <select id="colorselector" onchange="renderYourText()">
-            <option></option>
-            <option value="Cancellation">Cancellation</option>
-            <option value="Refund">Refund</option>
-        </select>
-    </div>
-
-    <div id="Cancellation" class="colors red">
-
-
-    </div>
-
-    <div id="Refund" class="colors red">
-
-    </div>
-
-    </div>
-
-    <!-- Email template drop down start here -->
-
-    <!-- Text area result box start here -->
-    <textarea class="form-control" rows="5" id="result" name="text"></textarea>
-    <!-- Text area result box end here -->
-
-    {{-- ///////////////////////////////////////////////////////////////////////TWESTTTTTTTTTTTTTTTTTTTTTTTTTTT --}}
 
 
     <style data-mode="XL">
@@ -186,9 +150,8 @@
         .u-block-0616-10 {
             box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1);
         }
-    </style>
-    <style data-mode="LG">
-        @media (max-width: 1199px) {
+
+        </><style data-mode="LG">@media (max-width: 1199px) {
             .u-block-0616-1 {
                 background-image: none;
                 margin-top: 0;

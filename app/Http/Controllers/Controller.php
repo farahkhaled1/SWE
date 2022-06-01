@@ -24,11 +24,11 @@ class Controller extends BaseController
 
     public function update_ku(Request $request)
     {
-        // dd($request);
-        $content = $request->content;
-        DB::table('ilos')->insert(['content' => $content, 'type' => 'k-u', 'specs(form)_id' => '1']);
-
-
+        //dd($request['1']);
+        $data = $request->all();
+        foreach ($data as $key => $value) {
+            DB::table('ilos')->insert(['content' => $value, 'type' => 'k-u', 'specs(form)_id' => '1']);
+        }
         return view('ilos2');
     }
 
