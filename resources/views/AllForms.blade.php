@@ -50,7 +50,7 @@
                 class="u-file-icon u-icon u-icon-circle u-white u-icon-1"><img src="{{url('images/form1.png')}}"
                   alt=""></span>
               <p class="u-align-center u-text u-text-custom-color-1 u-text-default u-text-3">Course Assesment Form</p>
-              <a href=""
+              <a href="{{url('courseAssesment')}}"
                 class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-none u-text-body-color u-btn-1">Enter</a>
             </div>
           </div>
@@ -60,7 +60,7 @@
                   alt=""></span>
               <p class="u-align-center u-text u-text-custom-color-1 u-text-default u-text-4">Assignemnt Assesment Form
               </p>
-              <a href=""
+              <a href="{{url('assign1')}}"
                 class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-text-body-color u-btn-2">Enter</a>
             </div>
           </div>
@@ -72,9 +72,8 @@
               </p>
               <a href="{{url('specs1')}}"
                 class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-text-body-color u-btn-3">Enter</a>
-=======
-}</script>
-    <meta name="theme-color" content="#478ac9">
+</script>
+    <!-- <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="All Forms">
     <meta property="og:type" content="website">
   </head>
@@ -112,15 +111,15 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
-  <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-e2a1">
+  <!-- <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-e2a1">
     <div class="u-align-left u-clearfix u-sheet u-valign-middle u-sheet-1">
       <p class="u-text u-text-default u-text-1">Contact us: miuegypt.edu.eg</p>
     </div>
-  </footer>
-  <section class="u-backlink u-clearfix u-grey-80">
+  </footer> -->
+  <!-- <section class="u-backlink u-clearfix u-grey-80">
     <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
       <span>Website Templates</span>
     </a>
@@ -130,7 +129,7 @@
     <a class="u-link" href="" target="_blank">
       <span>Website Builder Software</span>
     </a>.
-  </section>
+  </section> -->
 </body>
 
 </html>

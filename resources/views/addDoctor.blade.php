@@ -25,18 +25,7 @@
 		"name": "",
 		"logo": "/images/Misr_International_University_logo.png"
 
-}
-  </script>
-  <meta name="theme-color" content="#478ac9">
-  <meta property="og:title" content="addDoctor">
-  <meta property="og:type" content="website">
-</head>
-
-<body class="u-body u-xl-mode">
-</body>
-
-
-</script>
+    </script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="addDoctor">
     <meta property="og:type" content="website">
@@ -94,13 +83,10 @@
 	</table>
 </form>
 
-    
-    
 <footer class="u-align-center u-clearfix u-footer u-grey-80 u-valign-middle u-footer" id="sec-0322">
     <p class="u-small-text u-text u-text-variant u-text-1"> Copyright © MIU 2021. All rights reserved.</p>
   </footer>
   <section class="u-backlink u-clearfix u-grey-80">
   </section>
   </body>
-
 </html>

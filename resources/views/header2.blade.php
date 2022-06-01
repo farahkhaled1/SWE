@@ -140,12 +140,12 @@
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
-                                    href="{{url('specs3 ')}}" target="_blank" style="padding: 4px 6px">Teaching
+                                    href="{{url('specs4 ')}}" target="_blank" style="padding: 4px 6px">Teaching
                                     learning methods</a>
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
-                                    href="specs_Student-assessment.html" style="padding: 4px 6px">Student
+                                    href="{{url('specs5 ')}}" style="padding: 4px 6px">Student
                                     assessment</a>
                             </li>
                             <li class="u-nav-item">

@@ -46,7 +46,7 @@
       <h4 class="u-text u-text-default u-text-2"><b>- Overall aims of the course:</b>
       </h4>
       <div class="u-form u-form-1">
-        <form action="http://127.0.0.1:8000/specs1/create" method="POST"
+        <form action="http://127.0.0.1:8000/specs1/updateaims" method="POST"
           class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" style="padding: 10px;">
           <div class="u-form-group u-form-textarea u-form-group-1">
             <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
@@ -56,10 +56,21 @@
           </div>
           <div class="u-align-center u-form-group u-form-submit">
 
-            <input type="submit" value="Next"
+            <input type="submit" value="submit"
               class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
           </div>
           <input type="hidden" value="" name="recaptchaResponse">
+
+
+          {{-- return redirect()->back()->with('message', 'IT WORKS!');
+
+          Displaying message if it exists:
+
+          @if(session()->has('message'))
+          <div class="alert alert-success">
+            {{ session()->get('message') }}
+          </div>
+          @endif --}}
         </form>
       </div>
     </div>
