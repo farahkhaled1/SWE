@@ -3,6 +3,7 @@
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DemoController;
+use App\Http\Controllers\addDoctorController;
 //use App\Http\Controllers\deletecontroller;
 use Illuminate\Support\Facades\Route;
 //use App\Http\Controllers\CourseController;
@@ -20,6 +21,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::GET('add', [addDoctorController::class, 'Adddata']);
+
+
+
 
 Route::get('/', function () {
     return view('welcome');

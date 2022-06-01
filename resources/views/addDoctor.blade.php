@@ -71,7 +71,7 @@
 	{{ session('failed') }}
 </div>
 @endif
-<form action = "/adddoctor" method = "post">
+<form action = "/adddoctor" method ="GET">
 	<input type = "hidden" name = "_token" value = "<?php echo csrf_token(); ?>">
 	<table>
 	<tr>
