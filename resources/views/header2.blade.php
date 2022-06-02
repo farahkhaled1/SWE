@@ -4,11 +4,11 @@
 <script class="u-script" type="text/javascript" src="{{url('js/nicepage.js')}}" defer=""></script>
 
 <header class="u-header u-section-row-container" id="sec-f4f6" data-animation-name="" data-animation-duration="0"
-    data-animation-delay="0" data-animation-direction="" style="margin-top:50px">
+    data-animation-delay="0" data-animation-direction="" style="margin: 3px">
     <div class="u-section-rows">
         <div class="u-gradient u-section-row u-section-row-1" data-animation-name="" data-animation-duration="0"
             data-animation-delay="0" data-animation-direction="" id="sec-5f8d">
-            <div class="u-clearfix u-sheet u-sheet-1">
+            {{-- <div class="u-clearfix u-sheet u-sheet-1">
                 <a href="" class="u-image u-logo u-image-1" data-image-width="654" data-image-height="194">
                     <img src="../../../images/logo.png" class="u-logo-image u-logo-image-1" />
                 </a>
@@ -29,7 +29,7 @@
                 </div>
                 <span class="u-file-icon u-icon u-text-grey-90 u-icon-2"><img src="../../../images/1.png"
                         alt="" /></span>
-            </div>
+            </div> --}}
         </div>
         <div class="u-palette-1-dark-3 u-section-row u-sticky u-sticky-81a6 u-section-row-2" id="sec-1fdf">
             <div class="u-clearfix u-sheet u-sheet-2">
@@ -80,7 +80,8 @@
                     </div>
                 </nav>
                 <form action="#" method="get"
-                    class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1">
+                    class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1"
+                    style="margin-right: 20px">
                     <button class="u-search-button" type="submit">
                         <span class="u-search-icon u-spacing-10">
                             <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 56.966 56.966">
@@ -136,7 +137,7 @@
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
-                                    href="{{url('specs2 ')}}" style="padding: 4px 6px">ILOs</a>
+                                    href="{{url('specs2/ilos1 ')}}" style="padding: 4px 6px">ILOs</a>
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"

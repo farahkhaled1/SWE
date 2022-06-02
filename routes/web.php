@@ -15,6 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 //use App\Http\Controllers\CourseController;
 use Illuminate\Support\Facades\DB;
+<<<<<<< Updated upstream
+=======
+use App\Http\Controllers\DrCrudLarvel;
+use App\Http\Controllers\DrDeleteController;
+use App\Http\Controllers\tlController;
+
+>>>>>>> Stashed changes
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -109,11 +116,16 @@ Route::middleware([
     })->name('profile');
 });
 
-Route::post('/specs1/updateaims', [Controller::class, 'update_aims']);
+Route::post('/specs1/updatedaims', [Controller::class, 'update_aims']);
 Route::post('/specs2/updatedku', [Controller::class, 'update_ku']);
 Route::post('/specs2/updatedis', [Controller::class, 'update_is']);
 Route::post('/specs2/updatedpps', [Controller::class, 'update_pps']);
 Route::post('/specs2/updatedgts', [Controller::class, 'update_gts']);
+// Route::post('/specs5/updatedspecs5', [Controller::class, 'update_specs5']);
+
+
+Route::post('specs4/savemethods', [tlController::class, 'saveRecord'])->name('specs4/save');
+
 
 
 

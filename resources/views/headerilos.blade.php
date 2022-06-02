@@ -10,7 +10,8 @@
         <div class="u-custom-menu u-nav-container">
             <ul class="u-nav u-spacing-30 u-unstyled u-nav-3">
                 <li class="u-nav-item">
-                    <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
+                    <a style="size: 70%"
+                        class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
                         href="{{url('specs2/ilos1')}}" style="padding: 4px 6px">Knowledge &
                         understanding</a>
                 </li>

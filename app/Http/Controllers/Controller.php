@@ -15,12 +15,18 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function update_aims(Request $reques)
     {
+
         $content = $reques->content;
         DB::table('aims')->insert(['spec_id' => '1', 'content' => $content]);
-        // return response()->json(['status' => 'DONE']);
-        // return redirect('specs2')
-        return view('specs2');
+        // return redirect()->back()->with('success_message','any message you want');
     }
+
+    // public function update_specs5(Request $request)
+    // {
+    //     dd($content);
+    //     $content = $request->content;
+    //     DB::table('assessmentmethod')->insert(['spec_id' => '1', 'content' => $content]);
+    // }
 
     public function update_ku(Request $request)
     {
@@ -34,10 +40,11 @@ class Controller extends BaseController
 
     public function update_is(Request $request)
     {
-        $content = $request->content;
-        DB::table('ilos')->insert(['content' => $content, 'type' => 'i-s', 'specs(form)_id' => '1']);
 
-        // return response()->json(['status' => 'DONE']);
+        $data = $request->all();
+        foreach ($data as $key => $value) {
+            DB::table('ilos')->insert(['content' => $value, 'type' => 'i-s', 'specs(form)_id' => '1']);
+        }
         return view('ilos3');
     }
 
@@ -52,6 +59,6 @@ class Controller extends BaseController
     {
         $content = $request->content;
         DB::table('ilos')->insert(['content' => $content, 'type' => 'g-t-s', 'specs(form)_id' => '1']);
-        return view('specs2');
+        return view('specs4');
     }
 }

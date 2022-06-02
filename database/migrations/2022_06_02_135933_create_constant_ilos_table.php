@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTLmethodsTable extends Migration
+class CreateConstantIlosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateTLmethodsTable extends Migration
      */
     public function up()
     {
-        Schema::create('t&lmethods', function (Blueprint $table) {
-            $table->integer('id', true);
-            $table->integer('spec_id')->index('spec_id');
-            $table->string('content', 200);
+        Schema::create('constant_ilos', function (Blueprint $table) {
+            $table->string('id', 11)->primary();
+            $table->string('content', 500);
+            $table->string('type');
         });
     }
 
@@ -27,6 +27,6 @@ class CreateTLmethodsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('t&lmethods');
+        Schema::dropIfExists('constant_ilos');
     }
 }

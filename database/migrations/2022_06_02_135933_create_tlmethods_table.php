@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateKusTable extends Migration
+class CreateTlmethodsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,11 @@ class CreateKusTable extends Migration
      */
     public function up()
     {
-        Schema::create('kus', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+        Schema::create('tlmethods', function (Blueprint $table) {
+            $table->integer('id', true);
+            $table->integer('spec_id')->index('spec_id');
+            $table->string('content')->nullable();
+
         });
     }
 
@@ -26,6 +28,6 @@ class CreateKusTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('kus');
+        Schema::dropIfExists('tlmethods');
     }
 }

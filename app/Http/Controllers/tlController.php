@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class kuController extends Controller
+class tlController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,10 +13,8 @@ class kuController extends Controller
      */
     public function index()
     {
-        //
-        $posts = Post::all();
-        return view('multipleCheckbox',compact('posts'));
-    }   
+        return view('form');
+    }
 
     /**
      * Show the form for creating a new resource.
@@ -34,9 +32,9 @@ class kuController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function saveRecord(Request $request)
     {
-        //
+        return dd('ok');
     }
 
     /**
