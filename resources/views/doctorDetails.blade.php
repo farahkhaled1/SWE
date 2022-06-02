@@ -41,7 +41,7 @@
     </section>
     <section class="u-align-center u-clearfix u-gradient u-section-2" id="carousel_2cbc">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <a href="{{url('addDR')}}" class="u-border-none u-btn u-button-style u-custom-color-4 u-hover-custom-color-3 u-btn-1">Add proffesor</a>
+        <a href="{{url('register')}}" class="u-border-none u-btn u-button-style u-custom-color-4 u-hover-custom-color-3 u-btn-1">Add proffesor</a>
         <div class="u-container-style u-custom-color-4 u-group u-shape-rectangle u-group-1">
           <div class="u-container-layout u-container-layout-1">
             <h4 class="u-text u-text-white u-text-1">MIU Professor Table</h4>

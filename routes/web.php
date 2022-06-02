@@ -5,13 +5,16 @@ use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DemoController;
 use App\Http\Controllers\addDoctorController;
 //use App\Http\Controllers\deletecontroller;
+
+
+use App\Http\Controllers\DrDeleteController;
+
+
 use Illuminate\Support\Facades\Route;
 // use App\Http\Controllers\CourseController;
 
 //use App\Http\Controllers\CourseController;
 use Illuminate\Support\Facades\DB;
-use App\Http\Controllers\DrCrudLarvel;
-use App\Http\Controllers\DrDeleteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,6 +28,9 @@ use App\Http\Controllers\DrDeleteController;
 
 Route::GET('add', [addDoctorController::class, 'Adddata']);
 
+
+
+Route::GET('add', [addDoctorController::class, 'Adddata']);
 
 
 
