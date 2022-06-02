@@ -1,5 +1,7 @@
 <x-app-layout>
   @include('header2')
+  @include('header3')
+
   <!DOCTYPE html>
   <html style="font-size: 16px;">
 
@@ -39,6 +41,7 @@
   <body class="u-body u-xl-mode">
 
     </header>
+  </header>
     <section class="u-border-15 u-border-grey-75 u-border-no-bottom u-clearfix u-section-1" id="sec-551b">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div
@@ -52,31 +55,32 @@
         </h3>
         <div class="u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-form u-form-1">
           <form action="http://127.0.0.1:8000/specs2/updatedspecs5" method="POST"
-          class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form"
-          style="padding: 10px">
-          <div class="u-form-group u-form-textarea u-form-group-1">
-            <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
-            <textarea rows="5" cols="50" id="textarea-c3fb" name="textarea"
-              class="u-border-5 u-border-grey-75 u-input u-input-rectangle u-palette-5-light-2 u-radius-6 u-input-1"
-              required="" placeholder="By the end of this course, the student should be able to:"></textarea>
-          </div>
-          <div class="u-align-center u-form-group u-form-submit">
-            <a href="#"
-              class="u-border-none u-btn u-btn-submit u-button-style u-none u-text-body-alt-color u-btn-1">Submit</a>
-            <div class="u-align-center u-form-group u-form-submit">
-
-              <input type="submit" value="submit"
-                class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
+            class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form"
+            style="padding: 10px">
+            <div class="u-form-group u-form-textarea u-form-group-1">
+              <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
+              <textarea rows="5" cols="50" id="textarea-c3fb" name="textarea"
+                class="u-border-5 u-border-grey-75 u-input u-input-rectangle u-palette-5-light-2 u-radius-6 u-input-1"
+                required="" placeholder="By the end of this course, the student should be able to:"></textarea>
             </div>
-          </div>
-          <div class="u-form-send-message u-form-send-success">
-            Thank you! Your message has been sent.
-          </div>
-          <div class="u-form-send-error u-form-send-message">
-            Unable to send your message. Please fix errors then try again.
-          </div>
-          <input type="hidden" value="" name="recaptchaResponse" />
-        </form>
+            {{-- <div class="u-align-center u-form-group u-form-submit"> --}}
+              {{-- <a href="#"
+                class="u-border-none u-btn u-btn-submit u-button-style u-none u-text-body-alt-color u-btn-1">Submit</a>
+              --}}
+              {{-- <div class="u-align-center u-form-group u-form-submit">
+
+                <input type="submit" value="submit"
+                  class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
+              </div> --}}
+            </div>
+            {{-- <div class="u-form-send-message u-form-send-success">
+              Thank you! Your message has been sent.
+            </div>
+            <div class="u-form-send-error u-form-send-message">
+              Unable to send your message. Please fix errors then try again.
+            </div> --}}
+            <input type="hidden" value="" name="recaptchaResponse" />
+
 
 
         </div>
@@ -214,9 +218,11 @@
             </tbody>
           </table>
         </div>
-        <a href="specs_references.html"
+        <a type="submit"
           class="u-border-none u-btn u-button-style u-hover-palette-5-dark-3 u-palette-5-dark-2 u-btn-1">NEXT</a>
       </div>
+
+      </form>
     </section>
 
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-9d69">

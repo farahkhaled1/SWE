@@ -60,7 +60,7 @@
               <input type="submit" value="submit"
                 class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
             </div>
-            {{-- <input type="hidden" value="" name="recaptchaResponse"> --}}
+            <input type="hidden" value="" name="recaptchaResponse">
 
 
           </form>

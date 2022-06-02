@@ -129,7 +129,7 @@
                         <ul class="u-nav u-spacing-30 u-unstyled u-nav-3">
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
-                                    href="{{url('specs_Course-info')}}" style="padding: 4px 6px">Course info</a>
+                                    href="{{url('specs_courseinfo')}}" style="padding: 4px 6px">Course info</a>
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
@@ -146,16 +146,16 @@
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
-                                    href="{{url('specs5 ')}}" style="padding: 4px 6px">Student
+                                    href="{{url('sa1 ')}}" style="padding: 4px 6px">Student
                                     assessment</a>
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
-                                    style="padding: 4px 6px">References</a>
+                                    href="{{url('specs6 ')}}" style="padding: 4px 6px">References</a>
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
-                                    style="padding: 4px 6px">facilities</a>
+                                    href="{{url('specs7 ')}}" style="padding: 4px 6px">facilities</a>
                             </li>
                         </ul>
                     </div>

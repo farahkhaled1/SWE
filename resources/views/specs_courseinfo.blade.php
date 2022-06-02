@@ -251,7 +251,17 @@
                 <div class="u-container-layout u-container-layout-1">
                     <ul class="u-align-left u-text u-text-2">
                         <li>
-                            <span style="font-size: 1.25rem"><b>Course Title</b>: Image Processing&nbsp;&nbsp;
+                            <span style="font-size: 1.25rem"><b>Course</b>
+                                @php
+
+                                $data=DB::Table('courses')->select('title')->where('coordinator_id',Auth::user()->id)->get();
+
+                                echo($data);
+
+
+                                @endphp
+
+                                &nbsp;&nbsp;
                             </span>
                         </li>
                         <li>
@@ -448,7 +458,7 @@
                     </h2>
                 </div>
             </div>
-            <a href="specs_aims.html"
+            <a href={{url('specs1')}}
                 class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-1">NEXT</a>
         </div>
     </section>

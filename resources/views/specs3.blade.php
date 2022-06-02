@@ -19,7 +19,7 @@
   <link id="u-page-google-font" rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" />
 
- 
+
   <meta name="theme-color" content="#478ac9" />
   <meta property="og:title" content="specs 3" />
   <meta property="og:type" content="website" />
@@ -27,28 +27,6 @@
 
 <body class="u-body u-xl-mode">
 
-  <header class="u-gradient u-header u-header" id="sec-f4f6" data-animation-name="" data-animation-duration="0"
-    data-animation-delay="0" data-animation-direction="">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="654" data-image-height="194">
-        <img src="{{url('images/logo.png')}}" class="u-logo-image u-logo-image-1" />
-      </a>
-      <a href="https://nicepage.com/c/gallery-html-templates"
-        class="u-border-none u-btn u-button-style u-custom-color-1 u-custom-font u-font-pt-sans u-hover-custom-color-1 u-btn-1">profile</a>
-      <div class="u-social-icons u-spacing-10 u-social-icons-1">
-        <a class="u-social-url" target="_blank" data-type="YouTube" title="YouTube" href=""><span
-            class="u-icon u-social-icon u-social-youtube u-icon-1"><svg class="u-svg-link"
-              preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-34f5"></use>
-            </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-34f5">
-              <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
-              <path fill="#FFFFFF"
-                d="M74.9,33.3H37.3c-7.4,0-13.4,6-13.4,13.4v18.8c0,7.4,6,13.4,13.4,13.4h37.6c7.4,0,13.4-6,13.4-13.4V46.7 C88.3,39.3,82.3,33.3,74.9,33.3L74.9,33.3z M65.9,57l-17.6,8.4c-0.5,0.2-1-0.1-1-0.6V47.5c0-0.5,0.6-0.9,1-0.6l17.6,8.9 C66.4,56,66.4,56.8,65.9,57L65.9,57z">
-              </path>
-            </svg></span>
-        </a>
-      </div>
-    </div>
 
   </header>
   <section class="u-clearfix u-section-1" id="sec-af62">
@@ -1252,8 +1230,8 @@
     <a style="float: right;margin-right: 50px;" href="{{url('dashboard')}}"
       class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2" name="btn">Done</a>
   </section>
-
-  <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-9d69">
+  {{--
+  <er class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-9d69">
     <div class="u-clearfix u-sheet u-sheet-1">
       <h5 class="u-align-left u-text u-text-1"></h5>
       <p class="u-align-left u-large-text u-text u-text-variant u-text-2">
@@ -1262,7 +1240,7 @@
         Egypt<i></i>MIU Email: miu@miuegypt.edu.eg<i></i>MIU E-Learning Email:
         e-learning@miuegypt.edu.eg<i></i>MIU Hotline: 19-MIU / 19648
       </p>
-      <h5 class="u-align-left u-text u-text-3">Faculties Link​​s</h5>
+      <h5foot class="u-align-left u-text u-text-3">Faculties Link​​s</h5foot>
       <ul class="u-align-left u-small-text u-text u-text-variant u-text-white u-text-4">
         <li>
           <span style="font-size: 1.5rem">
@@ -1305,7 +1283,7 @@
         </li>
       </ul>
     </div>
-  </footer>
+    </footer> --}}
 
 </body>
 

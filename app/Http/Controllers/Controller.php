@@ -21,12 +21,11 @@ class Controller extends BaseController
         // return redirect()->back()->with('success_message','any message you want');
     }
 
-    // public function update_specs5(Request $request)
-    // {
-    //     dd($content);
-    //     $content = $request->content;
-    //     DB::table('assessmentmethod')->insert(['spec_id' => '1', 'content' => $content]);
-    // }
+    public function update_specs5(Request $request)
+    {
+        $content = $request->content;
+        DB::table('assessmentmethod')->insert(['spec_id' => '1', 'content' => $content]);
+    }
 
     public function update_ku(Request $request)
     {
@@ -60,5 +59,10 @@ class Controller extends BaseController
         $content = $request->content;
         DB::table('ilos')->insert(['content' => $content, 'type' => 'g-t-s', 'specs(form)_id' => '1']);
         return view('specs4');
+    }
+    public function course_details(Request $request)
+    {
+        $content = $request->content;
+        
     }
 }

@@ -15,13 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 //use App\Http\Controllers\CourseController;
 use Illuminate\Support\Facades\DB;
-<<<<<<< Updated upstream
-=======
 use App\Http\Controllers\DrCrudLarvel;
-use App\Http\Controllers\DrDeleteController;
 use App\Http\Controllers\tlController;
 
->>>>>>> Stashed changes
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -44,6 +40,19 @@ Route::GET('add', [addDoctorController::class, 'Adddata']);
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/sa1', function () {
+    return view('sa1');
+});
+
+Route::get('/sa2', function () {
+    return view('sa2');
+});
+
+Route::get('/sa3', function () {
+    return view('sa3');
+});
+
 
 Route::get('/specs2/ilos1', function () {
     return view('ilos1');
@@ -121,17 +130,19 @@ Route::post('/specs2/updatedku', [Controller::class, 'update_ku']);
 Route::post('/specs2/updatedis', [Controller::class, 'update_is']);
 Route::post('/specs2/updatedpps', [Controller::class, 'update_pps']);
 Route::post('/specs2/updatedgts', [Controller::class, 'update_gts']);
-// Route::post('/specs5/updatedspecs5', [Controller::class, 'update_specs5']);
+Route::post('/specs5/updatedspecs5', [Controller::class, 'update_specs5']);
 
 
 Route::post('specs4/savemethods', [tlController::class, 'saveRecord'])->name('specs4/save');
 
+Route::get('/specs_courseinfo', [Controller::class, 'course_details']);
 
 
 
 Route::get('/viewProfile', function () {
     return view('viewProfile');
 });
+
 
 
 
