@@ -4,12 +4,24 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DemoController;
 use App\Http\Controllers\addDoctorController;
+
 //use App\Http\Controllers\deletecontroller;
 use App\Http\Controllers\DrDeleteController;
+<<<<<<< Updated upstream
+=======
+
+
+
+>>>>>>> Stashed changes
 use Illuminate\Support\Facades\Route;
 // use App\Http\Controllers\CourseController;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\tlController;
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,7 +38,6 @@ Route::GET('add', [addDoctorController::class, 'Adddata']);
 
 
 Route::GET('add', [addDoctorController::class, 'Adddata']);
-
 
 
 Route::get('/', function () {
@@ -260,8 +271,7 @@ Route::get('/adddoctor', function () {
     return view('addDoctor');
 });
 
-<<<<<<< Updated upstream
-=======
+
 
 Route::get('/message', function () {
     return view('Message');
@@ -272,6 +282,10 @@ Route::get('/message', function () {
 // });
 
 Route::get('courses','CourseController@assign1');
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 
 
