@@ -94,9 +94,11 @@
                 </td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell"> {{$row->title}}&nbsp;<br>
                 </td>
+                <div class="checkbox checkbox-styled">
+                <td class="u-border-1 u-border-grey-30 u-table-cell"><label>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
-                <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
+             </div>
                 <!-- <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
@@ -105,6 +107,7 @@
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td>
                 <td class="u-border-1 u-border-grey-30 u-table-cell">DB</td> -->
               </tr>
+              </div>
               @endforeach
               <!-- <tr style="height: 76px;">
                 <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-29">Row 2</td>

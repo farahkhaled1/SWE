@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\constant_ilosController;
+use App\Http\Controllers\constant_ilos1Controller;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DemoController;
@@ -10,6 +12,7 @@ use App\Http\Controllers\addDoctorController;
 use App\Http\Controllers\DrDeleteController;
 
 
+<<<<<<< Updated upstream
 use Illuminate\Support\Facades\Route;
 // use App\Http\Controllers\CourseController;
 
@@ -18,6 +21,8 @@ use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\DrCrudLarvel;
 use App\Http\Controllers\tlController;
 
+=======
+>>>>>>> Stashed changes
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -184,9 +189,9 @@ Route::get('/specs7', function () {
     return view('specs7');
 });
 
-Route::get('/courseAssesment', function () {
-    return view('courseAssesment');
-});
+// Route::get('/courseAssesment', function () {
+//     return view('courseAssesment');
+// });
 
 Route::get('/specs1', function () {
     return view('specs1');
@@ -264,6 +269,19 @@ Route::get('/adddoctor', function () {
     return view('addDoctor');
 });
 
+<<<<<<< Updated upstream
+=======
+
+Route::get('/message', function () {
+    return view('Message');
+});
+
+// Route::get('/courseAssesment', function () {
+//     return view('courseAssesment');
+// });
+
+Route::get('courses','CourseController@assign1');
+>>>>>>> Stashed changes
 
 
 
@@ -272,6 +290,13 @@ Route::get('/adddoctor', function () {
 Route::get('courses', 'CourseController@assign1');
 
 Route::get('doctordetails', [CourseController::class, 'showDr']);
+
+Route::get('courseAssesment',[CourseController::class,'courseAssesment']);
+Route::get('specs2',[constant_ilosController::class,'constant_ilos']);
+
+// Route::get('specs2',[constant_ilos1Controller::class,'constant_ilos']);
+// Route::get('constant_ilos/{type}',[constant_ilosController::class,'constant_ilos']);
+// Route::get('constant_ilos/{type}',[constant_ilosController::class,'list']);
 
 // Route::get('addDR',[DrCrudLarvel::class ,'index'])->name('dr');
 // Route::post('addDR',[DrCrudLarvel::class ,'addDR'])->name('drr');
@@ -288,6 +313,9 @@ Route::get('list', [DrDeleteController::class, 'list']);
 Route::get('delete/{code}', [DrDeleteController::class, 'delete']);
 
 
+// Route::get('/constant_ilos/{type}', function ($type) {
+//     //
+// })->where(['type' => '[k&u]']);
 
 // Route::get('/login', function () {
 //     return view('login');

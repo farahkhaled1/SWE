@@ -54,16 +54,18 @@
             <form action="http://127.0.0.1:8000/specs2/updatedku" method="POST"
               class="u-align-left u-text u-text-4 u-text-default ">
               <span style="font-size: 50%" contenteditable="true">
-
+                @foreach ($constant_ilos as $row)   
+                <input type="checkbox" name="ilos[]" value="test"> {{$row->content}} <br /><br />
+                <!-- <input type="checkbox" name="ilos[]" value="test"> test <br />
+                <input type="checkbox" name="ilos[]" value="test"> test <br />
+                <input type="checkbox" name="ilos[]" value="test"> test <br />
+                <input type="checkbox" name="ilos[]" value="test"> test <br />
                 <input type="checkbox" name="ilos[]" value="test "> test <br />
-                <input type="checkbox" name="ilos[]" value="test"> test <br />
-                <input type="checkbox" name="ilos[]" value="test"> test <br />
-                <input type="checkbox" name="ilos[]" value="test"> test <br />
-                <input type="checkbox" name="ilos[]" value="test"> test <br />
-                <input type="checkbox" name="ilos[]" value="test "> test <br />
-                <input type="checkbox" name="ilos[]" value="test"> test <br /><br />
-
+                <input type="checkbox" name="ilos[]" value="test"> test <br /><br /> -->
+                <br />
+                @endforeach
               </span>
+              
 
 
 
@@ -130,15 +132,16 @@
               class="u-align-left u-text u-text-4 u-text-default ">
               <span style="font-size: 50%" contenteditable="true">
                 @csrf
-
+                @foreach ($constant_ilos as $row)   
+                <input type="checkbox" name="ilos[]" value="test "> {{$row->content}} <br />
+                <!-- <input type="checkbox" name="ilos[]" value="test"> test <br />
+                <input type="checkbox" name="ilos[]" value="test"> test <br />
+                <input type="checkbox" name="ilos[]" value="test"> test <br />
+                <input type="checkbox" name="ilos[]" value="test"> test <br />
                 <input type="checkbox" name="ilos[]" value="test "> test <br />
-                <input type="checkbox" name="ilos[]" value="test"> test <br />
-                <input type="checkbox" name="ilos[]" value="test"> test <br />
-                <input type="checkbox" name="ilos[]" value="test"> test <br />
-                <input type="checkbox" name="ilos[]" value="test"> test <br />
-                <input type="checkbox" name="ilos[]" value="test "> test <br />
-                <input type="checkbox" name="ilos[]" value="test"> test <br />
+                <input type="checkbox" name="ilos[]" value="test"> test <br /> -->
                 <br />
+                @endforeach
               </span>
             </form>
           </h2>
@@ -477,6 +480,7 @@
         }
       }
     </style>
+    
     <style data-mode="XS">
       @media (max-width: 575px) {
         .u-block-0616-1 {
