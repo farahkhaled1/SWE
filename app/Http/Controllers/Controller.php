@@ -25,8 +25,20 @@ class Controller extends BaseController
     {
         $content = $request->content;
         DB::table('assessmentmethod')->insert(['spec_id' => '1', 'content' => $content]);
+        
     }
 
+    public function saveRecord(Request $request)
+    {
+        //$content = $request->content;
+       // DB::table('tlmethods')->insert(['spec_id' => '1', 'content' => 'trdfygjh']);
+       $data = $request->all();
+       foreach($data as $item => $value){
+        DB::table('tlmethods')->insert(['spec_id' => auth()->user()->id, 'content' => $value]);
+       }
+       // dd($request);
+       
+    }
     public function update_ku(Request $request)
     {
         //dd($request['1']);
@@ -63,6 +75,5 @@ class Controller extends BaseController
     public function course_details(Request $request)
     {
         $content = $request->content;
-        
     }
 }

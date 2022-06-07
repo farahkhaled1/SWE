@@ -55,12 +55,12 @@
                 </h3>
                 <div
                     class="u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-form u-form-1">
-                    <form action="http://127.0.0.1:8000/specs2/updatedspecs5" method="POST"
+                    <form action="http://127.0.0.1:8000/specs5/updatedspecs5" method="POST"
                         class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form"
                         style="padding: 10px">
                         <div class="u-form-group u-form-textarea u-form-group-1">
                             <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
-                            <textarea rows="5" cols="50" id="textarea-c3fb" name="textarea"
+                            <textarea rows="5" cols="50" id="textarea-c3fb" name="content"
                                 class="u-border-5 u-border-grey-75 u-input u-input-rectangle u-palette-5-light-2 u-radius-6 u-input-1"
                                 required=""
                                 placeholder="By the end of this course, the student should be able to:"></textarea>

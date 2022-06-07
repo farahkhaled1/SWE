@@ -112,6 +112,10 @@ Route::middleware([
         return view('admin.dashboard');
     })->name('admin.dashboard');
 
+    Route::get('admin/adddoctor', function () {
+        return view('admin.adddoctor');
+    })->name('admin.dashboard');
+
     Route::get('admin/dashboard/profile', function () {
         return view('dashboard');
     })->name('profile');
@@ -125,7 +129,7 @@ Route::post('/specs2/updatedgts', [Controller::class, 'update_gts']);
 Route::post('/specs5/updatedspecs5', [Controller::class, 'update_specs5']);
 
 
-Route::post('specs4/savemethods', [tlController::class, 'saveRecord'])->name('specs4/save');
+Route::post('specs4/savemethods', [Controller::class, 'saveRecord']);
 
 Route::get('/specs_courseinfo', [Controller::class, 'course_details']);
 
@@ -256,6 +260,23 @@ Route::get('/adddoctor', function () {
     return view('addDoctor');
 });
 
+<<<<<<< Updated upstream
+=======
+
+Route::get('/message', function () {
+    return view('Message');
+});
+
+// Route::get('/courseAssesment', function () {
+//     return view('courseAssesment');
+// });
+
+Route::get('courses','CourseController@assign1');
+
+
+
+
+>>>>>>> Stashed changes
 
 Route::get('courses', 'CourseController@assign1');
 

@@ -54,15 +54,13 @@
             style="padding: 10px">
             <div class="u-form-group u-form-textarea u-form-group-1">
 
-              <input type="checkbox" name="ilos[]" value="test "> lectures <br />
-              <input type="checkbox" name="ilos[]" value="test"> assignments <br />
-              <input type="checkbox" name="ilos[]" value="test"> Synchronized and Hybrid learning <br />
-              <input type="checkbox" name="ilos[]" value="test"> Computer laboratory. <br />
-              <input type="checkbox" name="ilos[]" value="test"> Online <br /><br />
+              <input type="checkbox" name="spec1" value="lectures"> lectures <br />
+              <input type="checkbox" name="spec2" value="assignments"> assignments <br />
+              <input type="checkbox" name="spec3" value="Synchronized_and_Hybrid_learning"> Synchronized and Hybrid
+              learning <br />
+              <input type="checkbox" name="spec4" value="Computer_laboratory"> Computer laboratory<br />
+              <input type="checkbox" name="spec5" value="Online"> Online <br /><br />
               <label for="textarea-c3fb" class="u-form-control-hidden u-label"></label>
-
-
-
 
               <input type="submit" value="submit" style="float:right "
                 class=" u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 ">

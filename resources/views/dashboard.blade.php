@@ -41,9 +41,9 @@
                         <br>
                         <br>
                     </a>
-                    <h2 class="u-subtitle u-text u-text-1">Welcome to Quality Assurence Website&nbsp;<br>
+                    <h2 class="u-subtitle u-text u-text-1">Welcome to Quality Assurance Website&nbsp;<br>
                     </h2>
-                    <h6 class="u-text u-text-2"> Misr International University announce for new quality assurence system
+                    <h6 class="u-text u-text-2"> Misr International University announce for new quality assurance system
                         website. New
                         design and features are found</h6>
                 </section>

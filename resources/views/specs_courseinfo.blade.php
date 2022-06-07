@@ -265,7 +265,15 @@
                             </span>
                         </li>
                         <li>
-                            <span style="font-size: 1.25rem"><b>Course Code:</b> AI374&nbsp;
+                            <span style="font-size: 1.25rem"><b>Course Code:</b> 
+                                @php
+
+                                $data=DB::Table('courses')->select('title')->where('coordinator_id',Auth::user()->id)->get();
+
+                                echo($data);
+
+
+                                @endphp
                             </span>
                         </li>
                         <li>
