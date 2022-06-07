@@ -5,19 +5,11 @@ use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DemoController;
 use App\Http\Controllers\addDoctorController;
 //use App\Http\Controllers\deletecontroller;
-
-
 use App\Http\Controllers\DrDeleteController;
-
-
 use Illuminate\Support\Facades\Route;
 // use App\Http\Controllers\CourseController;
-
-//use App\Http\Controllers\CourseController;
 use Illuminate\Support\Facades\DB;
-use App\Http\Controllers\DrCrudLarvel;
 use App\Http\Controllers\tlController;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -265,18 +257,9 @@ Route::get('/adddoctor', function () {
 });
 
 
-
-
-
-
 Route::get('courses', 'CourseController@assign1');
 
 Route::get('doctordetails', [CourseController::class, 'showDr']);
-
-// Route::get('addDR',[DrCrudLarvel::class ,'index'])->name('dr');
-// Route::post('addDR',[DrCrudLarvel::class ,'addDR'])->name('drr');
-// Route::post('insert',[DrCrudLarvel::class ,'insert'])->name('drrr');
-// //Route::get('/addDR','DrCrudLarvel@addDR');
 
 
 Route::get('list', [DrDeleteController::class, 'list']);
@@ -298,12 +281,6 @@ Route::get('delete/{code}', [DrDeleteController::class, 'delete']);
 //     return view('coursesDetails');
 // });
 
-
-
-
-// Route::get('/coursesDetails', function () {
-//     return view('coursesDetails');
-// });
 Route::get('courses', 'CourseController@assign1');
 
 Route::get('/adddoctor', function () {
