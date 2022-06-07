@@ -45,27 +45,26 @@
         <p class="u-text u-text-3">Please specify how your course ILOs will be assessed and attach your course specification to this form&nbsp;</p>
         <p class="u-text u-text-4">
           <br>
-          <span style="font-weight: 700;">Department</span>:(DB)
-        </p>
+          @foreach($courseAssesment as $row)
+          <span style="font-weight: 700;">Department</span>:{{ $row->department_teaching }}</p>
         <p class="u-text u-text-5">
-          <span style="font-weight: 700;">Faculty</span>: Computer Science (DB)
-        </p>
+          <span style="font-weight: 700;">Faculty</span>:{{ $row->department_teaching }}</p>
         <p class="u-text u-text-6">
           <br>
-          <span style="font-weight: 700;">Semester</span>:(DB)
-        </p>
+         
+          <span style="font-weight: 700;">Semester</span>:{{ $row->semester }}</p>
         <p class="u-text u-text-7">
+
           <span style="font-weight: 700;">Instructor's</span>
-          <span style="font-weight: 700;">Name</span>: (DB)
-        </p>
+          <span style="font-weight: 700;">Name</span>: {{ $row->assistant }}</p>
         <p class="u-text u-text-8">
           <br>
-          <span style="font-weight: 700;">Department</span>:(DB)
-        </p>
+          <span style="font-weight: 700;">Department</span>:{{ $row->department_teaching }}</p>
         <p class="u-text u-text-9">
           <span style="font-weight: 700;">Course</span>
-          <span style="font-weight: 700;">Title</span>: (DB)
+          <span style="font-weight: 700;">Title</span>:{{ $row->title }}
         </p>
+        @endforeach
       </div>
     </section>
     <section class="u-align-center u-clearfix u-section-2" id="sec-1d1d">
@@ -89,6 +88,7 @@
               <col width="2.2%">
               <col width="48.5%">
             </colgroup>
+           
             <thead class="u-palette-4-base u-table-header u-table-header-1">
               <tr style="height: 98px;">
                 <th class="u-border-1 u-border-grey-10 u-custom-color-2 u-table-cell u-table-cell-1">ILOs as numbered in course<br>specification&nbsp;
