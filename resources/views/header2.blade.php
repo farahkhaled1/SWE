@@ -56,7 +56,8 @@
                                     style="padding: 10px 22px">Home</a>
                             </li>
                             <li class="u-nav-item">
-                                <a class="u-button-style u-nav-link" style="padding: 10px 22px">Courses</a>
+                                <a class="u-button-style u-nav-link" style="padding: 10px 22px"
+                                    href="{{url('courses')}}">Courses</a>
                             </li>
                         </ul>
                     </div>

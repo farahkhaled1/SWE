@@ -6,8 +6,12 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+<<<<<<< Updated upstream
         "botman/botman": "^2.7",
         "botman/driver-web": "^1.5",
+=======
+        "barryvdh/laravel-dompdf": "^1.0",
+>>>>>>> Stashed changes
         "facebook/graph-sdk": "^5.1",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",

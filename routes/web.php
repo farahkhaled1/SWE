@@ -271,7 +271,10 @@ Route::get('/adddoctor', function () {
     return view('addDoctor');
 });
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 Route::get('/message', function () {
     return view('Message');
@@ -281,16 +284,19 @@ Route::get('/message', function () {
 //     return view('courseAssesment');
 // });
 
+<<<<<<< Updated upstream
 Route::get('courses','CourseController@assign1');
 <<<<<<< Updated upstream
 =======
 
 >>>>>>> Stashed changes
-
-
-
-
+=======
+Route::get('courses', 'CourseController@assign1');
 >>>>>>> Stashed changes
+
+
+
+
 
 Route::get('courses', 'CourseController@assign1');
 
@@ -328,6 +334,8 @@ Route::get('/coursesdetails', function () {
 });
 
 
+
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -336,4 +344,8 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+    Route::get('courses', function () {
+        return view('courses');
+    })->name('courses');
 });

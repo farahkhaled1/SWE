@@ -35,7 +35,7 @@
                         class="u-border-none u-btn u-button-style u-none u-text-body-alt-color u-btn-1"
                         target="_blank">home<br>
                     </a>
-                    <a href="{{url('coursesdetails')}}"
+                    <a href="{{url('courses')}}"
                         class="u-border-none u-btn u-button-style u-none u-text-body-alt-color u-text-hover-white u-btn-2">
                         <span style="font-size: 1.125rem;">MY COURSES</span>
                         <br>
@@ -71,7 +71,7 @@
                             <div class="u-container-layout">
                                 <img class="u-expanded-width u-image u-image-default u-image-3"
                                     src="images/form-img31.png" alt="" data-image-width="855" data-image-height="724">
-                                <a href="{{url('coursesdetails')}}"
+                                <a href="{{url('courses')}}"
                                     class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-3">courses</a>
                             </div>
                         </div>

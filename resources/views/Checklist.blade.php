@@ -70,18 +70,7 @@
                 </th>
                 <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-7">Assignment<br>Assess
                 </th>
-                <!-- <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-8">Midterm Exam</th>
-                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-9">Model<br>Ans Midterm
-                </th>
-                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-10">Assessment<br>Criteria Midterm
-                </th>
-                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-11">Course<br>Report
-                </th>
-                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-12">Final Exam</th>
-                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-13">Model<br>Ans. Final
-                </th>
-                <th class="u-border-1 u-border-palette-4-base u-custom-color-2 u-table-cell u-table-cell-14">Assesment<br>Crtiria Final
-                </th> -->
+             
               </tr>
             </thead>
 
