@@ -18,4 +18,7 @@ class DrDeleteController extends Controller
         DB::delete('delete from courses where code=? ', [$code]);
         return redirect('doctordetails')->with('status','data deleted succesfully');
     }
+    
 }
+
+

@@ -139,7 +139,17 @@ Route::get('/viewProfile', function () {
     return view('viewProfile');
 });
 
+Route::get('/SubmittedAllForms', function () {
+    return view('SubmittedAllForms');
+});
 
+Route::get('/SubmittedAssignAssmn', function () {
+    return view('SubmittedAssignAssmn');
+});
+
+Route::get('/SubmittedCourseAssment', function () {
+    return view('SubmittedCourseAssment');
+});
 
 
 Route::get('/admin', function () {

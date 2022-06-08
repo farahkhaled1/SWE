@@ -35,11 +35,9 @@
                         class="u-border-none u-btn u-button-style u-none u-text-body-alt-color u-btn-1"
                         target="_blank">home<br>
                     </a>
-<<<<<<< Updated upstream
                     <a href="{{url('courses')}}"
-=======
+
                     <a href="{{url('coursesDetails')}}"
->>>>>>> Stashed changes
                         class="u-border-none u-btn u-button-style u-none u-text-body-alt-color u-text-hover-white u-btn-2">
                         <span style="font-size: 1.125rem;">MY COURSES</span>
                         <br>
@@ -57,9 +55,8 @@
                             <div class="u-container-layout">
                                 <img class="u-image u-image-default u-image-1" src="images/staff-icon1.png" alt=""
                                     data-image-width="421" data-image-height="375">
-                                <a href=""
-                                    class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-1">submitied
-                                    forms<br>
+                                <a href="{{url('SubmittedAllForms')}}"
+                                    class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-1">Submitied forms<br>
                                 </a>
                             </div>
                         </div>
