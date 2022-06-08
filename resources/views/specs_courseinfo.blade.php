@@ -256,14 +256,16 @@
                 <div class="u-container-layout u-container-layout-1">
                     <ul class="u-align-left u-text u-text-2">
                         <li>
-                            <span style="font-size: 1.25rem"><b>Course</b>
+                            <span style="font-size: 1.25rem"><b>Course:</b>
                                 @php
 
                                 $data=DB::Table('courses')->select('title')->where('coordinator_id',Auth::user()->id)->get();
 
-                                echo($data);
 
+                                foreach ($data as $key => $value) {
+                                echo $value->title;
 
+                                }
                                 @endphp
 
                                 &nbsp;&nbsp;
@@ -275,8 +277,10 @@
 
                                 $data=DB::Table('courses')->select('code')->where('coordinator_id',Auth::user()->id)->get();
 
-                                echo($data);
+                                foreach ($data as $key => $value) {
+                                echo $value->code;
 
+                                }
 
                                 @endphp
                             </span>
@@ -287,7 +291,10 @@
 
                                 $data=DB::Table('courses')->select('programme')->where('coordinator_id',Auth::user()->id)->get();
 
-                                echo($data);
+                                foreach ($data as $key => $value) {
+                                echo $value->programme;
+
+                                }
 
 
                                 @endphp
@@ -299,8 +306,10 @@
 
                                 $data=DB::Table('courses')->select('department_offering')->where('coordinator_id',Auth::user()->id)->get();
 
-                                echo($data);
+                                foreach ($data as $key => $value) {
+                                echo $value->department_offering;
 
+                                }
 
                                 @endphp
                             </span>
@@ -311,7 +320,10 @@
 
                                 $data=DB::Table('courses')->select('department_offering')->where('coordinator_id',Auth::user()->id)->get();
 
-                                echo($data);
+                                foreach ($data as $key => $value) {
+                                echo $value->department_offering;
+
+                                }
 
 
                                 @endphp
@@ -323,9 +335,12 @@
 
                                 $data=DB::Table('courses')->select('year')->where('coordinator_id',Auth::user()->id)->get();
 
-                                echo($data);
-                                $data=DB::Table('courses')->select('level')->where('coordinator_id',Auth::user()->id)->get();
-                                echo($data);
+                                foreach ($data as $key => $value) {
+                                echo $value->year;
+
+                                }
+                                $dataa=DB::Table('courses')->select('level')->where('coordinator_id',Auth::user()->id)->get();
+                                echo($dataa);
 
 
                                 @endphp
@@ -337,8 +352,10 @@
 
                                 $data=DB::Table('courses')->select('approval_date')->where('coordinator_id',Auth::user()->id)->get();
 
-                                echo($data);
+                                foreach ($data as $key => $value) {
+                                echo $value->approval_date;
 
+                                }
 
                                 @endphp
                             </span>
@@ -349,8 +366,10 @@
 
                                 $data=DB::Table('courses')->select('credit_hours')->where('coordinator_id',Auth::user()->id)->get();
 
-                                echo($data);
+                                foreach ($data as $key => $value) {
+                                echo $value->credit_hours . ' hrs/week';
 
+                                }
 
                                 @endphp
                             </span>
@@ -361,8 +380,11 @@
 
                                 $data=DB::Table('courses')->select('lectures')->where('coordinator_id',Auth::user()->id)->get();
 
-                                echo($data);
 
+                                foreach ($data as $key => $value) {
+                                echo $value->lectures . ' hrs/week';
+
+                                }
 
                                 @endphp
                             </span>
@@ -373,8 +395,10 @@
 
                                 $data=DB::Table('courses')->select('total')->where('coordinator_id',Auth::user()->id)->get();
 
-                                echo($data);
+                                foreach ($data as $key => $value) {
+                                echo $value->total . ' hrs/week';
 
+                                }
 
                                 @endphp
                             </span>
@@ -386,8 +410,10 @@
 
                                 $data=DB::Table('courses')->select('practical')->where('coordinator_id',Auth::user()->id)->get();
 
-                                echo($data);
+                                foreach ($data as $key => $value) {
+                                echo ($value->practical. ' hrs/week');
 
+                                }
 
                                 @endphp
                             </span>
@@ -398,8 +424,10 @@
 
                                 $data=DB::Table('courses')->select('prerequisite')->where('coordinator_id',Auth::user()->id)->get();
 
-                                echo($data);
+                                foreach ($data as $key => $value) {
+                                echo $value->prerequisite;
 
+                                }
 
                                 @endphp
                             </span>

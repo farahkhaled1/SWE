@@ -124,6 +124,10 @@ Route::middleware([
     Route::get('admin/dashboard/profile', function () {
         return view('dashboard');
     })->name('profile');
+
+    Route::get('admib/adddoctor', function () {
+        return view('addDoctor');
+    });
 });
 
 Route::post('/specs1/updatedaims', [Controller::class, 'update_aims']);
@@ -197,7 +201,7 @@ Route::get('/specs7', function () {
     return view('specs7');
 });
 
-Route::get('courseAssesment',[CourseController::class,'courseAssesment']);
+Route::get('courseAssesment', [CourseController::class, 'courseAssesment']);
 
 Route::get('/specs1', function () {
     return view('specs1');
@@ -208,17 +212,15 @@ Route::get('/specs1', function () {
 });
 
 
-Route::get('Checklist', function () {
-    return view('checklist');
-});
+
 
 Route::get('courses', function () {
     return view('Courses');
 });
 
-Route::get('adddoctor', function () {
-    return view('addDoctor');
-});
+// Route::get('adddoctor', function () {
+//     return view('addDoctor');
+// });
 
 
 Route::get('/specs2', function () {
@@ -280,9 +282,9 @@ Route::get('/doctordetails', function () {
 // });
 
 
-Route::get('/adddoctor', function () {
-    return view('addDoctor');
-});
+// Route::get('/adddoctor', function () {
+//     return view('addDoctor');
+// });
 
 
 
@@ -294,7 +296,7 @@ Route::get('/message', function () {
 //     return view('courseAssesment');
 // });
 
-Route::get('courses','CourseController@assign1');
+Route::get('courses', 'CourseController@assign1');
 Route::get('courses', 'CourseController@assign1');
 
 // Route::get('courses', 'CourseController@assign1');
@@ -321,9 +323,6 @@ Route::get('delete/{code}', [DrDeleteController::class, 'delete']);
 
 Route::get('courses', 'CourseController@assign1');
 
-Route::get('/adddoctor', function () {
-    return view('addDoctor');
-});
 
 Route::get('/coursesdetails', function () {
     return view('coursesDetails');
@@ -331,6 +330,7 @@ Route::get('/coursesdetails', function () {
 
 
 Route::post('/specs7/insertformindatabase', [Controller::class, 'insertformindatabase']);
+Route::post('/insert2indatabase', [Controller::class, 'insert_indatabase']);
 
 
 
@@ -526,10 +526,6 @@ Route::get('courses', function () {
     return view('Courses');
 });
 
-Route::get('adddoctor', function () {
-    return view('addDoctor');
-});
-
 
 Route::get('/specs2', function () {
     return view('specs2');
@@ -586,12 +582,6 @@ Route::get('/coursesdetails', function () {
 });
 
 
-Route::get('/adddoctor', function () {
-    return view('addDoctor');
-});
-
-
-
 Route::get('/message', function () {
     return view('Message');
 });
@@ -622,9 +612,7 @@ Route::get('delete/{code}', [DrDeleteController::class, 'delete']);
 
 Route::get('courses', 'CourseController@assign1');
 
-Route::get('/adddoctor', function () {
-    return view('addDoctor');
-});
+
 
 
 Route::get('/coursesdetails', function () {

@@ -81,7 +81,19 @@ class Controller extends BaseController
         DB::table('ilos')->insert(['content' => $content, 'type' => 'p-p-s', 'specs(form)_id' => '1']);
         return view('ilos4');
     }
+    public function insertformindatabase(Request $request)
+    {
+        $data = $request->all();
+        DB::table('checklist')->insert(['user_id' => $data['user_id'], 'form_type' =>  $data['form_type']]);
+        return redirect('dashboard');
+    }
 
+    public function insert_indatabase(Request $request)
+    {
+        $data = $request->all();
+        DB::table('checklist')->insert(['user_id' => auth()->user()->id, 'form_type' => 'aa']);
+        return redirect('dashboard');
+    }
     public function update_gts(Request $request)
     {
         $content = $request->content;
@@ -93,13 +105,6 @@ class Controller extends BaseController
         $content = $request->content;
     }
 
-
-    public function insertformindatabase(Request $request)
-    {
-        $data = $request->all();
-        DB::table('checklist')->insert(['user_id' => $data['user_id'], 'form_type' =>  $data['form_type']]);
-        return redirect('dashboard');
-    }
 
 
     public function add_doctor(Request $request)

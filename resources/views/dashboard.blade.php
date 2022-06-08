@@ -36,9 +36,7 @@
                         class="u-border-none u-btn u-button-style u-none u-text-body-alt-color u-btn-1"
                         target="_blank">home<br>
                     </a>
-                    <a href="{{url('courses')}}"
-
-                    <a href="{{url('coursesDetails')}}"
+                    <a href="{{url('courses')}}" <a href="{{url('coursesDetails')}}"
                         class="u-border-none u-btn u-button-style u-none u-text-body-alt-color u-text-hover-white u-btn-2">
                         <span style="font-size: 1.125rem;">MY COURSES</span>
                         <br>
@@ -49,17 +47,16 @@
                     <h6 class="u-text u-text-2"> Misr International University announce for new quality assurance system
                         website. New
                         design and features are found</h6>
+                    <hr>
                 </section>
-                <section class="u-clearfix u-gradient u-section-2" id="sec-e6a6" style="margin-top: -70px">
+                <section class="u-clearfix u-gradient u-section-2" id="sec-e6a6" style="margin-top: -100px">
                     <div class="u-clearfix u-sheet u-sheet-1">
                         <div class="u-container-style u-group u-group-1">
                             <div class="u-container-layout">
                                 <img class="u-image u-image-default u-image-1" src="images/staff-icon1.png" alt=""
                                     data-image-width="421" data-image-height="375">
-                                <a href="{{url('SubmittedAllForms')}}"
-                                    class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-1">Submitied forms<br>
                                 <a href="{{url('checklist')}}"
-                                    class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-1">submitied
+                                    class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-1">submitted
                                     forms<br>
                                 </a>
                             </div>
@@ -76,10 +73,8 @@
                             <div class="u-container-layout">
                                 <img class="u-expanded-width u-image u-image-default u-image-3"
                                     src="images/form-img31.png" alt="" data-image-width="855" data-image-height="724">
-                                <a href="{{url('courses')}}"
-
-                                <a href="{{url('coursesDetails')}}"
- class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-3">courses</a>
+                                <a href="{{url('courses')}}" <a href="{{url('coursesDetails')}}"
+                                    class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-3">courses</a>
                             </div>
                         </div>
                     </div>

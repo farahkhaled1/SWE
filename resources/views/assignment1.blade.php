@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="{{url('css/nicepage.css')}}" media="screen">
     <link rel="stylesheet" href="{{url('css/assignment_assessment1.css')}}" media="screen">
+    <link rel="stylesheet" href="{{url('css/assign2.css')}}" media="screen">
+
     <script class="u-script" type="text/javascript" src="{{url('js/jquery.js')}}" defer=""></script>
     <script class="u-script" type="text/javascript" src="{{url('js/nicepage.js')}}" defer=""></script>
 
@@ -112,7 +114,7 @@
                             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
                         </div>
                     </nav>
-                    <form action="#" method="get"
+                    <form action="" method="get"
                         class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1">
                         <button class="u-search-button" type="submit">
                             <span class="u-search-icon u-spacing-10">
@@ -222,112 +224,142 @@
                         </tr>
                     </thead>
                     <tbody class="u-table-body">
-                        <tr style="height: 64px">
+                        <form method="POST" action="http://127.0.0.1:8000/insert2indatabase">
+                            @csrf
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content1" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content2" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content3" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content4" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content5" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content6" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content7" id='textarea'>
                             </td>
-                            <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+
+                            <td class="u-border-1 u-border-grey-30 u-table-cell"> <input type="text" required=""
+                                    name="content8" id='textarea'>
                             </td>
+
+
+                            </tr>
+                            {{--
+                        </form> --}}
+                        <tr style="height: 73px">
+
+                            {{-- <form method="POST" action="http://127.0.0.1:8000/sa2/updatedmidterm"> --}}
+                                @csrf
+                                <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                    <input type="text" required="" name="content1" id='textarea'>
+                                </td>
+                                <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                    <input type="text" required="" name="content2" id='textarea'>
+                                </td>
+                                <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                    <input type="text" required="" name="content3" id='textarea'>
+                                </td>
+                                <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                    <input type="text" required="" name="content4" id='textarea'>
+                                </td>
+                                <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                    <input type="text" required="" name="content5" id='textarea'>
+                                </td>
+                                <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                    <input type="text" required="" name="content6" id='textarea'>
+                                </td>
+                                <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                    <input type="text" required="" name="content7" id='textarea'>
+                                </td>
+
+                                <td class="u-border-1 u-border-grey-30 u-table-cell"> <input type="text" required=""
+                                        name="content8" id='textarea'>
+                                </td>
+
                         </tr>
+                        {{-- </form> --}}
                         <tr style="height: 76px">
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content1" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content2" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content3" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content4" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content5" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content6" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content7" id='textarea'>
                             </td>
-                            <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+
+                            <td class="u-border-1 u-border-grey-30 u-table-cell"> <input type="text" required=""
+                                    name="content8" id='textarea'>
                             </td>
+
+
                         </tr>
+                        {{-- </form> --}}
                         <tr style="height: 76px">
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content1" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content2" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content3" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content4" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content5" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content6" id='textarea'>
                             </td>
                             <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+                                <input type="text" required="" name="content7" id='textarea'>
                             </td>
-                            <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
+
+                            <td class="u-border-1 u-border-grey-30 u-table-cell"> <input type="text" required=""
+                                    name="content8" id='textarea'>
                             </td>
+
                         </tr>
-                        <tr style="height: 76px">
-                            <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
-                            </td>
-                            <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
-                            </td>
-                            <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
-                            </td>
-                            <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
-                            </td>
-                            <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
-                            </td>
-                            <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
-                            </td>
-                            <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
-                            </td>
-                            <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                <div contenteditable></div>
-                            </td>
-                        </tr>
+
+
                     </tbody>
                 </table>
+                <div class="u-align-center u-form-group u-form-submit">
+
+
+                    <input type="submit" value="submit"
+                        class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">
+                </div>
+
+
+                </form>
+
             </div>
             <script>
                 function toggleText() {

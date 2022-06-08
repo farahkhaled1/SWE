@@ -1,59 +1,62 @@
-<!DOCTYPE html>
-<html style="font-size: 16px">
+<x-app-layout>
+    <!DOCTYPE html>
+    <html style="font-size: 16px;">
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta name="keywords" content="Basic information" />
-    <meta name="description" content="" />
-    <meta name="page_type" content="np-template-header-footer-from-plugin" />
-    <title>assignment_assessment0</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="keywords" content="Professional information">
+        <meta name="description" content="">
+        <meta name="page_type" content="np-template-header-footer-from-plugin">
+        <title>specs_aims</title>
+        <link rel="stylesheet" href="{{url('css/nicepage.css')}}" media="screen">
+        <link rel="stylesheet" href="{{url('css/specs_course-info.css')}}" media="screen">
+        <script class="u-script" type="text/javascript" src="{{url('js/jquery.js')}}" defer=""></script>
+        <script class="u-script" type="text/javascript" src="{{url('js/nicepage.js')}}" defer=""></script>
+        <meta name="generator" content="Nicepage 4.6.5, nicepage.com">
+        <link id="u-theme-google-font" rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+        <link id="u-page-google-font" rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i">
 
 
-    <link rel="stylesheet" href="{{url('css/nicepage.css')}}" media="screen">
-    <link rel="stylesheet" href="{{url('css/assignment_assessment0.css')}}" media="screen">
-    <script class="u-script" type="text/javascript" src="{{url('js/jquery.js')}}" defer=""></script>
-    <script class="u-script" type="text/javascript" src="{{url('js/nicepage.js')}}" defer=""></script>
+        <meta name="generator" content="Nicepage 4.6.5, nicepage.com" />
+        <link id="u-theme-google-font" rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" />
+        <link id="u-page-google-font" rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" />
 
-
-
-
-    <meta name="generator" content="Nicepage 4.6.5, nicepage.com" />
-    <link id="u-theme-google-font" rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" />
-    <link id="u-page-google-font" rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" />
-
-    <script type="application/ld+json">
-        {
+        <script type="application/ld+json">
+            {
         "@context": "http://schema.org",
         "@type": "Organization",
         "name": "",
         "logo": "../../../images/logo.png",
         "sameAs": []
       }
-    </script>
-    <meta name="theme-color" content="#478ac9" />
-    <meta property="og:title" content="assignment_assessment0" />
-    <meta property="og:type" content="website" />
-</head>
+        </script>
+        <meta name="theme-color" content="#478ac9" />
+        <meta property="og:title" content="specs_Course info" />
+        <meta property="og:type" content="website" />
+    </head>
 
-<body class="u-body u-xl-mode">
-    <header class="u-header u-section-row-container" id="sec-f4f6" data-animation-name="" data-animation-duration="0"
-        data-animation-delay="0" data-animation-direction="">
+    </header>
+
+    {{-- <header class="u-header u-section-row-container" id="sec-f4f6" data-animation-name=""
+        data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
         <div class="u-section-rows">
             <div class="u-gradient u-section-row u-section-row-1" data-animation-name="" data-animation-duration="0"
                 data-animation-delay="0" data-animation-direction="" id="sec-5f8d">
                 <div class="u-clearfix u-sheet u-sheet-1">
                     <a href="" class="u-image u-logo u-image-1" data-image-width="654" data-image-height="194">
-                        <img src="{{url('images/logo.png')}}" class="u-logo-image u-logo-image-1" />
+                        <img src="../../../images/logo.png" class="u-logo-image u-logo-image-1" />
                     </a>
                     <a href=""
                         class="u-border-none u-btn u-button-style u-custom-color-1 u-custom-font u-font-pt-sans u-hover-custom-color-1 u-btn-1">Profile</a>
                     <div class="u-social-icons u-spacing-10 u-social-icons-1">
                         <a class="u-social-url" target="_blank" data-type="YouTube" title="YouTube" href=""><span
                                 class="u-icon u-social-icon u-social-youtube u-icon-1"><svg class="u-svg-link"
-                                    preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
+                                    preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
                                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-34f5"></use>
                                 </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-34f5">
                                     <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
@@ -104,7 +107,7 @@
                                     <div class="u-menu-close"></div>
                                     <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
                                         <li class="u-nav-item">
-                                            <a class="u-button-style u-nav-link" href="{{url('home')}}"
+                                            <a class="u-button-style u-nav-link" href="{{url('/')}}"
                                                 style="padding: 10px 22px">Home</a>
                                         </li>
                                         <li class="u-nav-item">
@@ -167,158 +170,279 @@
                             <ul class="u-nav u-spacing-30 u-unstyled u-nav-3">
                                 <li class="u-nav-item">
                                     <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
-                                        href="{{url('assignment0')}}" style="padding: 4px 6px">Course info</a>
+                                        href="{{url('specs_Course-info')}}" style="padding: 4px 6px">Course info</a>
                                 </li>
                                 <li class="u-nav-item">
                                     <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
-                                        href="{{url('assignment1')}}" style="padding: 4px 6px">Assignment
-                                        Assessment</a>
+                                        href="{{url('specs1 ')}}" style="padding: 4px 6px">aims</a>
                                 </li>
-
+                                <li class="u-nav-item">
+                                    <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
+                                        href="specs_ILO.html" style="padding: 4px 6px">ILOs</a>
+                                </li>
+                                <li class="u-nav-item">
+                                    <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
+                                        href="specs_teaching-methods.html" target="_blank"
+                                        style="padding: 4px 6px">Teaching learning
+                                        methods</a>
+                                </li>
+                                <li class="u-nav-item">
+                                    <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
+                                        href="specs_Student-assessment.html" style="padding: 4px 6px">Student
+                                        assessment</a>
+                                </li>
+                                <li class="u-nav-item">
+                                    <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
+                                        style="padding: 4px 6px">References</a>
+                                </li>
+                                <li class="u-nav-item">
+                                    <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-grey-90 u-text-white"
+                                        style="padding: 4px 6px">facilities</a>
+                                </li>
                             </ul>
                         </div>
+                        <div class="u-custom-menu u-nav-container-collapse">
+                            <div
+                                class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                                <div class="u-inner-container-layout u-sidenav-overflow">
+                                    <div class="u-menu-close"></div>
+                                    <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-4">
+                                        <li class="u-nav-item">
+                                            <a class="u-button-style u-nav-link" href="specs_Course-info.html"
+                                                style="padding: 4px 6px">Course
+                                                info</a>
+                                        </li>
+                                        <li class="u-nav-item">
+                                            <a class="u-button-style u-nav-link" href="specs_aims.html"
+                                                style="padding: 4px 6px">aims</a>
+                                        </li>
+                                        <li class="u-nav-item">
+                                            <a class="u-button-style u-nav-link" href="specs_ILO.html"
+                                                style="padding: 4px 6px">ILOs</a>
+                                        </li>
+                                        <li class="u-nav-item">
+                                            <a class="u-button-style u-nav-link" href="specs_teaching-methods.html"
+                                                target="_blank" style="padding: 4px 6px">Teaching learning
+                                                methods</a>
+                                        </li>
+                                        <li class="u-nav-item">
+                                            <a class="u-button-style u-nav-link" href="specs_Student-assessment.html"
+                                                style="padding: 4px 6px">Student assessment</a>
+                                        </li>
+                                        <li class="u-nav-item">
+                                            <a class="u-button-style u-nav-link" style="padding: 4px 6px">References</a>
+                                        </li>
+                                        <li class="u-nav-item">
+                                            <a class="u-button-style u-nav-link" style="padding: 4px 6px">facilities</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+                        </div>
+                    </nav>
                 </div>
-                <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
             </div>
-            {{-- <div class="u-custom-menu u-nav-container-collapse">
-                <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-                    <div class="u-inner-container-layout u-sidenav-overflow">
-                        <div class="u-menu-close"></div>
-                        <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-4">
-                            <li class="u-nav-item">
-                                <a class="u-button-style u-nav-link" href="specs_Course-info.html"
-                                    style="padding: 4px 6px">Course info</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-button-style u-nav-link" href="specs_aims.html"
-                                    style="padding: 4px 6px">aims</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-button-style u-nav-link" href="specs_ILO.html"
-                                    style="padding: 4px 6px">ILOs</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-button-style u-nav-link" href="specs_teaching-methods.html" target="_blank"
-                                    style="padding: 4px 6px">Teaching learning methods</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-button-style u-nav-link" href="specs_Student-assessment.html"
-                                    style="padding: 4px 6px">Student assessment</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-button-style u-nav-link" style="padding: 4px 6px"
-                                    href="specs_references.html">References</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-button-style u-nav-link" style="padding: 4px 6px"
-                                    href="specs_Facilities.html">facilities</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-            </div>
-            </nav>
         </div>
-        </div>
-        </div> --}}
-    </header>
+    </header> --}}
     <section class="u-align-center u-border-16 u-border-grey-75 u-clearfix u-section-1" id="sec-01c0">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <div class="u-align-center u-border-2 u-border-grey-75 u-grey-70 u-shape u-shape-rectangle u-shape-1"></div>
+            <div class="u-align-center u-border-2 u-border-grey-75 u-grey-70 u-shape u-shape-rectangle u-shape-1">
+            </div>
             <h2 class="u-text u-text-default u-text-white u-text-1">
-                <b> Basic information</b>
+                <b> Assignment Assesment</b>
             </h2>
             <div
                 class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-container-style u-group u-palette-5-light-3 u-group-1">
                 <div class="u-container-layout u-container-layout-1">
                     <ul class="u-align-left u-text u-text-2">
                         <li>
-                            <span style="font-size: 1.25rem"><b>Course Title</b>: Image Processing&nbsp;&nbsp;
+                            <span style="font-size: 1.25rem"><b>Course:</b>
+                                @php
+
+                                $data=DB::Table('courses')->select('title')->where('coordinator_id',Auth::user()->id)->get();
+
+
+                                foreach ($data as $key => $value) {
+                                echo $value->title;
+
+                                }
+                                @endphp
+
+                                &nbsp;&nbsp;
                             </span>
                         </li>
                         <li>
-                            <span style="font-size: 1.25rem"><b>Course Code:</b> AI374&nbsp;
+                            <span style="font-size: 1.25rem"><b>Course Code:</b>
+                                @php
+
+                                $data=DB::Table('courses')->select('code')->where('coordinator_id',Auth::user()->id)->get();
+
+                                foreach ($data as $key => $value) {
+                                echo $value->code;
+
+                                }
+
+                                @endphp
                             </span>
                         </li>
                         <li>
                             <span style="font-size: 1.25rem"><b>Programme on which the course is given</b>:
-                                &nbsp;Bachelor
-                                of Computer Science&nbsp;
+                                @php
+
+                                $data=DB::Table('courses')->select('programme')->where('coordinator_id',Auth::user()->id)->get();
+
+                                foreach ($data as $key => $value) {
+                                echo $value->programme;
+
+                                }
+
+
+                                @endphp
                             </span>
                         </li>
                         <li>
-                            <span style="font-size: 1.25rem"><b>Department offering the course:</b>&nbsp; Computer
-                                Science
+                            <span style="font-size: 1.25rem"><b>Department offering the course:</b>
+                                @php
+
+                                $data=DB::Table('courses')->select('department_offering')->where('coordinator_id',Auth::user()->id)->get();
+
+                                foreach ($data as $key => $value) {
+                                echo $value->department_offering;
+
+                                }
+
+                                @endphp
                             </span>
                         </li>
                         <li>
-                            <span style="font-size: 1.25rem"><b>Department teaching the course</b>: Computer Science
+                            <span style="font-size: 1.25rem"><b>Department teaching the course</b>:
+                                @php
+
+                                $data=DB::Table('courses')->select('department_offering')->where('coordinator_id',Auth::user()->id)->get();
+
+                                foreach ($data as $key => $value) {
+                                echo $value->department_offering;
+
+                                }
+
+
+                                @endphp
                             </span>
                         </li>
                         <li>
-                            <span style="font-size: 1.25rem"><b>Academic year/Level:</b> 2021-2022/ Third
-                                level&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span style="font-size: 1.25rem"><b>Academic year/Level:</b>
+                                @php
+
+                                $data=DB::Table('courses')->select('year')->where('coordinator_id',Auth::user()->id)->get();
+
+                                foreach ($data as $key => $value) {
+                                echo $value->year;
+
+                                }
+                                $dataa=DB::Table('courses')->select('level')->where('coordinator_id',Auth::user()->id)->get();
+                                echo($dataa);
+
+
+                                @endphp
                             </span>
                         </li>
                         <li>
-                            <span style="font-size: 1.25rem"><b>Date of specification approval</b>: October
-                                2021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span style="font-size: 1.25rem"><b>Date of specification approval</b>:
+                                @php
+
+                                $data=DB::Table('courses')->select('approval_date')->where('coordinator_id',Auth::user()->id)->get();
+
+                                foreach ($data as $key => $value) {
+                                echo $value->approval_date;
+
+                                }
+
+                                @endphp
                             </span>
                         </li>
                         <li>
-                            <span style="font-size: 1.25rem"><b>Credit Hours:&nbsp;</b> 4&nbsp; &nbsp; &nbsp; &nbsp;
-                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <span style="font-size: 1.25rem"><b>Credit Hours:&nbsp;</b>
+                                @php
+
+                                $data=DB::Table('courses')->select('credit_hours')->where('coordinator_id',Auth::user()->id)->get();
+
+                                foreach ($data as $key => $value) {
+                                echo $value->credit_hours . ' hrs/week';
+
+                                }
+
+                                @endphp
                             </span>
                         </li>
                         <li>
-                            <span style="font-size: 1.25rem"><b>Lectures: </b>3 hrs/week&nbsp;&nbsp;
+                            <span style="font-size: 1.25rem"><b>Lectures: </b>
+                                @php
+
+                                $data=DB::Table('courses')->select('lectures')->where('coordinator_id',Auth::user()->id)->get();
+
+
+                                foreach ($data as $key => $value) {
+                                echo $value->lectures . ' hrs/week';
+
+                                }
+
+                                @endphp
                             </span>
                         </li>
                         <li>
-                            <b style="
-                    color: #111111;
-                    font-family: 'Open Sans', sans-serif;
-                    font-size: 1.25rem;
-                    background-color: #e0e5eb;
-                  ">Practical:&nbsp;&nbsp;</b>
-                            <span style="
-                    color: #111111;
-                    font-family: 'Open Sans', sans-serif;
-                    font-size: 1.25rem;
-                    background-color: #e0e5eb;
-                  ">
-                                2&nbsp;&nbsp; hrs /
-                                week&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <span style="font-size: 1.25rem"><b>Total: </b>
+                                @php
+
+                                $data=DB::Table('courses')->select('total')->where('coordinator_id',Auth::user()->id)->get();
+
+                                foreach ($data as $key => $value) {
+                                echo $value->total . ' hrs/week';
+
+                                }
+
+                                @endphp
+                            </span>
+
                         </li>
                         <li>
-                            <span style="font-size: 1.5rem"><b style="
-                      font-size: 1.875rem;
-                      font-family: 'Open Sans', sans-serif;
-                      background-color: #e0e5eb;
-                    ">Total:
-                                </b>
-                                <span style="
-                      font-family: 'Open Sans', sans-serif;
-                      background-color: #e0e5eb;
-                    ">5hrs/week</span>
+                            <span style="font-size: 1.25rem"><b>Pratical: </b>
+                                @php
+
+                                $data=DB::Table('courses')->select('practical')->where('coordinator_id',Auth::user()->id)->get();
+
+                                foreach ($data as $key => $value) {
+                                echo ($value->practical. ' hrs/week');
+
+                                }
+
+                                @endphp
                             </span>
                         </li>
                         <li>
-                            <span style="font-size: 1.5rem"><b style="
-                      font-size: 1.875rem;
-                      font-family: 'Open Sans', sans-serif;
-                      background-color: #e0e5eb;
-                    ">Course Prerequisite:</b>
-                                <span style="
-                      font-family: 'Open Sans', sans-serif;
-                      background-color: #e0e5eb;
-                    ">
-                                    CSC390 Computer Graphics I</span>
+                            <span style="font-size: 1.25rem"><b>Course Prerequisite: </b>
+                                @php
+
+                                $data=DB::Table('courses')->select('prerequisite')->where('coordinator_id',Auth::user()->id)->get();
+
+                                foreach ($data as $key => $value) {
+                                echo $value->prerequisite;
+
+                                }
+
+                                @endphp
+                            </span>
                             </span>
                         </li>
                         <li>
-                            <span style="font-size: 1.5rem"><b>Course Coordinator: </b>Dr. Alaa Hamdy
+                            <span style="font-size: 1.25rem"><b>Course coordinator: </b>
+                                @php
+
+                                $data =Auth::user()->name;
+                                echo('Dr '. $data);
+
+
+                                @endphp
                             </span>
                         </li>
                     </ul>
@@ -431,7 +555,7 @@
                     </h2>
                 </div>
             </div>
-            <a href="{{url('assignment1')}}"
+            <a href={{url('assignment1')}}
                 class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-1">NEXT</a>
         </div>
     </section>
@@ -444,6 +568,8 @@
             <h5 class="u-align-left u-text u-text-2"></h5>
         </div>
     </footer>
-</body>
+    </body>
 
-</html>
+    </html>
+
+</x-app-layout>
