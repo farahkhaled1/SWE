@@ -48,10 +48,19 @@ class CourseController extends Controller
     }
     public function Checklist()
     {
-        
-        $courses = courses::all(); #courses::all() is the name of class in the model 
-        return view('Checklist', compact('courses')); #courses here is the name of the variable in the previous line in class
-        return $courses;
+       
+        if(auth()->user()->utype === "ADM"){
+              $courses = courses::all(); #courses::all() is the name of class in the model 
+                return view('Checklist', compact('courses')); #courses here is the name of the variable in the previous line in class
+       
+        }else{
+            $courses = courses::where('coordinator_id',auth()->user()->id)->get();
+              return view('Checklist', compact('courses')); #courses here is the name of the variable in the previous line in class
+      
+        }
+       return $courses;
+      
+      
         
       
 

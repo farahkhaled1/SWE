@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateFavoritesTable extends Migration
+class CreateChecklistTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,10 @@ class CreateFavoritesTable extends Migration
      */
     public function up()
     {
-        Schema::create('ch_favorites', function (Blueprint $table) {
-            $table->bigInteger('id');
-            $table->bigInteger('user_id');
-            $table->bigInteger('favorite_id');
-            $table->timestamps();
-
-            $table->primary('id');
+        Schema::create('checklist', function (Blueprint $table) {
+            $table->integer('id', true);
+            $table->integer('user_id')->index('course_id');
+            $table->string('form_type');
         });
     }
 
@@ -30,6 +27,6 @@ class CreateFavoritesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ch_favorites');
+        Schema::dropIfExists('checklist');
     }
 }

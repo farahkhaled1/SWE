@@ -50,8 +50,8 @@
                 <h3 class="u-text u-text-default u-text-1">
                     <b> - Weighting of assessments</b>
                 </h3>
-                <div class="u-table u-table-responsive u-table-1">
-                    <table class="u-table-entity u-table-entity-1">
+                <div class="u-table u-table-responsive u-table-1" style="margin:50px">
+                    <table class="u-table-entity u-table-entity-1" style="margin-left:50px">
                         <colgroup>
                             <col width="20%" />
                             <col width="20%" />
@@ -76,65 +76,99 @@
                                     class="u-border-1 u-border-grey-30 u-first-column u-palette-5-light-2 u-table-cell u-table-cell-6">
                                     Midterm Exam
                                 </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                    Description
-                                </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                    Description
-                                </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                    Description
-                                </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell"></td>
+                                <form method="POST" action="http://127.0.0.1:8000/sa2/updatedmidterm">
+                                    @csrf
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                        <input type="number" required="" name="content1" id='numberarea'>
+                                    </td>
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                        <input type="number" required="" name="content2" id='numberarea'>
+                                    </td>
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                        <input type="number" required="" name="content3" id='numberarea'>
+                                    </td>
+
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell"> <input type="number"
+                                            required="" name="content4" id='textarea'>
+                                    </td>
+
+
                             </tr>
+                            {{-- </form> --}}
                             <tr style="height: 73px">
                                 <td
                                     class="u-border-1 u-border-grey-30 u-first-column u-palette-5-light-2 u-table-cell u-table-cell-11">
                                     Final Exam
                                 </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                    Description
-                                </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                    Description
-                                </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                    Description
-                                </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell"></td>
+                                {{-- <form method="POST" action="http://127.0.0.1:8000/sa2/updatedmidterm"> --}}
+                                    @csrf
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                        <input type="number" required="" name="content1" id='numberarea'>
+                                    </td>
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                        <input type="number" required="" name="content2" id='numberarea'>
+                                    </td>
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                        <input type="number" required="" name="content3" id='numberarea'>
+                                    </td>
+
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell"> <input type="number"
+                                            required="" name="content4" id='textarea'>
+                                    </td>
+
+
                             </tr>
+                            {{-- </form> --}}
                             <tr style="height: 76px">
                                 <td
                                     class="u-border-1 u-border-grey-30 u-first-column u-palette-5-light-2 u-table-cell u-table-cell-16">
                                     Attendance&nbsp;
                                 </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                    Description
-                                </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                    Description
-                                </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                    Description
-                                </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell"></td>
+                                {{-- <form method="POST" action="http://127.0.0.1:8000/sa2/updatedmidterm"> --}}
+                                    @csrf
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                        <input type="number" required="" name="content1" id='numberarea'>
+                                    </td>
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                        <input type="number" required="" name="content2" id='numberarea'>
+                                    </td>
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                        <input type="number" required="" name="content3" id='numberarea'>
+                                    </td>
+
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell"> <input type="number"
+                                            required="" name="content4" id='numberarea'>
+                                    </td>
+
+
                             </tr>
+                            {{-- </form> --}}
                             <tr style="height: 76px">
                                 <td
                                     class="u-border-1 u-border-grey-30 u-first-column u-palette-5-light-2 u-table-cell u-table-cell-21">
                                     Participation
                                 </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                    Description
-                                </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                    Description
-                                </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell">
-                                    Description
-                                </td>
-                                <td class="u-border-1 u-border-grey-30 u-table-cell"></td>
+                                {{-- <form method="POST" action="http://127.0.0.1:8000/sa2/updatedmidterm"> --}}
+                                    @csrf
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                        <input type="number" required="" name="content1" id='numberarea'>
+                                    </td>
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                        <input type="number" required="" name="content2" id='numberarea'>
+                                    </td>
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                                        <input type="number" required="" name="content3" id='numberarea'>
+                                    </td>
+
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell"> <input type="number"
+                                            required="" name="content4" id='numberarea'>
+                                    </td>
+                                    <td class="u-border-1 u-border-grey-30 u-table-cell"> <input type="submit"
+                                            value="submit" name="submit"></td>
+
                             </tr>
+                            </form>
+
                         </tbody>
                     </table>
                 </div>

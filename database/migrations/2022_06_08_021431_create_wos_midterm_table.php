@@ -14,12 +14,12 @@ class CreateWosMidtermTable extends Migration
     public function up()
     {
         Schema::create('wos_midterm', function (Blueprint $table) {
-            $table->integer('written');
-            $table->integer('labexam');
-            $table->integer('quiz');
-            $table->integer('total');
-            $table->integer('id')->primary();
-            $table->integer('spec_id')->index('spec_id_2');
+            $table->integer('id', true);
+            $table->string('written', 121)->nullable();
+            $table->string('labexam', 12)->nullable();
+            $table->string('quiz', 120)->nullable();
+            $table->string('total', 111)->nullable();
+            $table->string('spec_id', 111)->nullable()->index('spec_id_2');
         });
     }
 

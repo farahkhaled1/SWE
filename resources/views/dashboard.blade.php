@@ -5,10 +5,11 @@
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Dr-main page</title>
-    <link rel="stylesheet" href="{{url('css/DoctorMpg2.css')}}" media="screen">
-    <link rel="stylesheet" href="{{url('css/DoctorMpg.css')}}" media="screen">
-    <script class="u-script" type="text/javascript" src="{{url('js/jquery.js')}}"></script>
-    <script class="u-script" type="text/javascript" src="{{url('js/DoctorMpg.js')}}"></script>
+    <link rel="stylesheet" href="https://qualitymiu.ukshopy.com/public/css/DoctorMpg2.css" media="screen">
+    <link rel="stylesheet" href="https://qualitymiu.ukshopy.com/public/css/DoctorMpg.css" media="screen">
+    <script class="u-script" type="text/javascript" src="https://qualitymiu.ukshopy.com/public/js/jquery.js"></script>
+    <script class="u-script" type="text/javascript" src="https://qualitymiu.ukshopy.com/public/js/DoctorMpg.js">
+    </script>
 
     <link id="u-theme-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
@@ -49,7 +50,7 @@
                         website. New
                         design and features are found</h6>
                 </section>
-                <section class="u-clearfix u-gradient u-section-2" id="sec-e6a6">
+                <section class="u-clearfix u-gradient u-section-2" id="sec-e6a6" style="margin-top: -70px">
                     <div class="u-clearfix u-sheet u-sheet-1">
                         <div class="u-container-style u-group u-group-1">
                             <div class="u-container-layout">
@@ -57,6 +58,9 @@
                                     data-image-width="421" data-image-height="375">
                                 <a href="{{url('SubmittedAllForms')}}"
                                     class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-1">Submitied forms<br>
+                                <a href="{{url('checklist')}}"
+                                    class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-1">submitied
+                                    forms<br>
                                 </a>
                             </div>
                         </div>

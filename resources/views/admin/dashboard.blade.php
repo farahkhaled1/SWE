@@ -1,4 +1,4 @@
-<x-admin-layout>
+<x-app-layout>
     <!DOCTYPE html>
     <html style="font-size: 16px;">
 
@@ -21,10 +21,10 @@
 
         <script type="application/ld+json">
             {
-            "@context": "http://schema.org",
-            "@type": "Organization",
-            "name": ""
-    }
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}
         </script>
         <meta name="theme-color" content="#478ac9">
         <meta property="og:title" content="Supervisor page">
@@ -32,7 +32,8 @@
     </head>
 
     <body class="u-body u-xl-mode">
-
+       
+        </header>
         <section class="u-carousel u-slide u-block-8ad7-1" id="carousel_5da0" data-interval="5000"
             data-u-ride="carousel">
             <ol class="u-absolute-hcenter u-carousel-indicators u-block-8ad7-2">
@@ -53,7 +54,7 @@
                 <span aria-hidden="true">
                     <svg viewBox="0 0 477.175 477.175">
                         <path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
-                        c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path>
+                    c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path>
                     </svg>
                 </span>
                 <span class="sr-only">Previous</span>
@@ -64,7 +65,7 @@
                     <svg viewBox="0 0 477.175 477.175">
                         <path
                             d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
-                        c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z">
+                    c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z">
                         </path>
                     </svg>
                 </span>
@@ -77,7 +78,8 @@
                     data-image-width="382" data-image-height="381">
                 <img class="u-image u-image-default u-preserve-proportions u-image-2"
                     src="{{url('images/form-img3.png')}}" alt="" data-image-width="855" data-image-height="724">
-
+                <a href="https://nicepage.com/k/card-html-templates"
+                    class="u-border-none u-btn u-button-style u-custom-color-2 u-hover-palette-1-dark-1 u-btn-1">Courses</a>
                 <img class="u-image u-image-default u-image-3" src="{{url('images/form-img7.png')}}" alt=""
                     data-image-width="421" data-image-height="375">
                 <a href="{{url('allforms')}}"
@@ -159,9 +161,8 @@
                 </div>
             </div>
         </footer>
-
+       
     </body>
 
     </html>
-
-</x-admin-layout>
+</x-app-layout>
