@@ -6,9 +6,19 @@ use App\Http\Controllers\DemoController;
 use App\Http\Controllers\addDoctorController;
 //use App\Http\Controllers\deletecontroller;
 use App\Http\Controllers\DrDeleteController;
+<<<<<<< Updated upstream
 
 
 use Illuminate\Support\Facades\Route;
+=======
+use App\Mail\WelcomeMail;
+use App\Http\Controllers\DeadlineController;
+use App\Notification\deadlinenotf;
+//use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\mail;
+// use App\Http\Controllers\CourseController;
+>>>>>>> Stashed changes
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\tlController;
 
@@ -256,7 +266,7 @@ Route::get('/checklist', function () {
     return view('Checklist');
 });
 
-
+Route::get('specs_courseinfo', [CourseController::class, 'duedates']);
 
 Route::get('/test', function () {
     return view('test');
@@ -302,6 +312,10 @@ Route::get('courses', 'CourseController@assign1');
 
 
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 Route::get('courses', 'CourseController@assign1');
 
@@ -316,7 +330,7 @@ Route::get('list', [DrDeleteController::class, 'list']);
 
 Route::get('delete/{code}', [DrDeleteController::class, 'delete']);
 
-
+//Auth::route();
 
 // Route::get('/login', function () {
 //     return view('login');
@@ -651,3 +665,5 @@ Route::middleware([
         return view('courses');
     })->name('courses');
 });
+
+Route::get('/send-deadlinenotfc',[DeadlineController::class,'sendtestnotfication']);

@@ -421,116 +421,29 @@
             </div>
             <div class="u-align-left u-container-style u-group u-group-2">
                 <div class="u-container-layout">
-                    <h2 class="u-text u-text-3">You have</h2>
-                    <div class="u-countdown u-countdown-1" data-timer-id="d8d7" data-type="to-date"
-                        data-target-date="Sun, 10 Apr 2022 12:15:16 GMT" data-for="everyone" data-direction="down"
-                        data-time-left="750m" data-target-number="100"
-                        data-start-time="Sun Apr 03 2022 01:56:37 GMT+0200 (Egypt Standard Time)" data-frequency="1s"
-                        data-after-count="none" data-redirect-url="https://">
-                        <div class="u-countdown-wrapper u-spacing-20">
-                            <div class="u-countdown-item u-countdown-years u-hidden u-spacing-10">
-                                <div class="u-countdown-counter u-countdown-counter-1">
-                                    <div class="u-countdown-number u-text-custom-color-1">
-                                        0
-                                    </div>
-                                    <div class="u-countdown-number u-hidden u-text-custom-color-1">
-                                        0
-                                    </div>
-                                </div>
-                                <div class="u-countdown-label u-countdown-label-1">Years</div>
-                            </div>
-                            <div class="u-countdown-separator u-hidden u-text-custom-color-1 u-countdown-separator-1">
-                                :
-                            </div>
-                            <div class="u-countdown-days u-countdown-item u-spacing-10">
-                                <div class="u-countdown-counter u-countdown-counter-2">
-                                    <div class="u-countdown-number u-text-custom-color-1">
-                                        7
-                                    </div>
-                                    <div class="u-countdown-number u-hidden u-text-custom-color-1">
-                                        6
-                                    </div>
-                                    <div class="u-countdown-number u-hidden u-text-custom-color-1">
-                                        0
-                                    </div>
-                                </div>
-                                <div class="u-countdown-label u-countdown-label-2">Days</div>
-                            </div>
-                            <div class="u-countdown-separator u-text-custom-color-1 u-countdown-separator-2">
-                                :
-                            </div>
-                            <div class="u-countdown-hours u-countdown-item u-spacing-10">
-                                <div class="u-countdown-counter u-countdown-counter-3">
-                                    <div class="u-countdown-number u-text-custom-color-1">
-                                        1
-                                    </div>
-                                    <div class="u-countdown-number u-text-custom-color-1">
-                                        2
-                                    </div>
-                                </div>
-                                <div class="u-countdown-label u-countdown-label-3">Hours</div>
-                            </div>
-                            <div class="u-countdown-separator u-text-custom-color-1 u-countdown-separator-3">
-                                :
-                            </div>
-                            <div class="u-countdown-item u-countdown-minutes u-spacing-10">
-                                <div class="u-countdown-counter u-countdown-counter-4">
-                                    <div class="u-countdown-number u-text-custom-color-1">
-                                        3
-                                    </div>
-                                    <div class="u-countdown-number u-text-custom-color-1">
-                                        0
-                                    </div>
-                                </div>
-                                <div class="u-countdown-label u-countdown-label-4">
-                                    Minutes
-                                </div>
-                            </div>
-                            <div class="u-countdown-separator u-text-custom-color-1 u-countdown-separator-4">
-                                :
-                            </div>
-                            <div class="u-countdown-item u-countdown-seconds u-spacing-10">
-                                <div class="u-countdown-counter u-countdown-counter-5">
-                                    <div class="u-countdown-number u-text-custom-color-1">
-                                        0
-                                    </div>
-                                    <div class="u-countdown-number u-text-custom-color-1">
-                                        0
-                                    </div>
-                                </div>
-                                <div class="u-countdown-label u-countdown-label-5">
-                                    Seconds
-                                </div>
-                            </div>
-                            <div class="u-countdown-separator u-hidden u-text-custom-color-1 u-countdown-separator-5">
-                                :
-                            </div>
-                            <div class="u-countdown-item u-countdown-numbers u-hidden u-spacing-10">
-                                <div class="u-countdown-counter u-countdown-counter-6">
-                                    <div class="u-countdown-number u-text-custom-color-1">
-                                        0
-                                    </div>
-                                    <div class="u-countdown-number u-text-custom-color-1">
-                                        0
-                                    </div>
-                                </div>
-                                <div class="u-countdown-label u-countdown-label-6">Items</div>
-                            </div>
-                        </div>
-                        <div class="u-countdown-message u-hidden">
-                            <p>Sorry, the time is up.</p>
-                        </div>
-                    </div>
-                    <h2 class="u-text u-text-default u-text-4">
-                        till subm​ission date
-                    </h2>
+                    <h2 class="u-text u-text-3">Deadline table</h2>
+                    <table class ="table table-bordered">
+                        <tr>
+                          
+                            <th>course code||</th>
+                            <th>due date</th>
+                        </tr>
+                        @foreach($duedates as $row)
+                        <tr>
+                          
+                            <td>{{$row['course_id']}}</td>
+                            <td>{{$row['due_date']}}</td>
+                        </tr>
+                        @endforeach
+
                 </div>
             </div>
             <a href={{url('specs1')}}
-                class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-1">NEXT</a>
+                class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-10">NEXT</a>
         </div>
     </section>
 
+<<<<<<< Updated upstream
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-9d69">
         <div class="u-clearfix u-sheet u-sheet-1">
             <p class="u-align-left u-large-text u-text u-text-variant u-text-1">
@@ -542,5 +455,9 @@
     </body>
 
     </html>
+=======
+    
+</body>
+>>>>>>> Stashed changes
 
 </x-app-layout>
