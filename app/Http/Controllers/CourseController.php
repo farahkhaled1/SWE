@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\courses;
+use App\Models\duedate;
 use Illuminate\Support\Facades\DB;
 
 class CourseController extends Controller
@@ -17,6 +18,13 @@ class CourseController extends Controller
         // return view('assign1',compact('Course'));
       
     }
+    public function duedates()
+    {
+        $duedates=duedate::all()->toArray();
+        return view('specs_courseinfo',compact('duedates'));
+    }
+
+
 
     public function CourseTable()
     {

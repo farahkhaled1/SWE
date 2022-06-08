@@ -5,8 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class doctor extends Model
+class duedate extends Model
 {
     use HasFactory;
-    public $timesstamps=false;
+    protected $table="duedate";
 }
