@@ -1,7 +1,7 @@
-<link rel="stylesheet" href="{{url('css/nicepage.css')}}" media="screen">
-<link rel="stylesheet" href="{{url('css/specs_aims.css')}}" media="screen">
-<script class="u-script" type="text/javascript" src="{{url('js/jquery.js')}}" defer=""></script>
-<script class="u-script" type="text/javascript" src="{{url('js/nicepage.js')}}" defer=""></script>
+<link rel="stylesheet" href="https://qualitymiu.ukshopy.com/public/css/nicepage.css" media="screen">
+<link rel="stylesheet" href="https://qualitymiu.ukshopy.com/public/css/specs_aims.css" media="screen">
+<script class="u-script" type="text/javascript" src="https://qualitymiu.ukshopy.com/public/js/jquery.js" defer=""></script>
+<script class="u-script" type="text/javascript" src="https://qualitymiu.ukshopy.com/public/js/nicepage.js" defer=""></script>
 
 <header class="u-header u-section-row-container" id="sec-f4f6" data-animation-name="" data-animation-duration="0"
     data-animation-delay="0" data-animation-direction="" style="margin: 3px">
@@ -56,8 +56,7 @@
                                     style="padding: 10px 22px">Home</a>
                             </li>
                             <li class="u-nav-item">
-                                <a class="u-button-style u-nav-link" style="padding: 10px 22px"
-                                    href="{{url('courses')}}">Courses</a>
+                                <a class="u-button-style u-nav-link" style="padding: 10px 22px">Courses</a>
                             </li>
                         </ul>
                     </div>

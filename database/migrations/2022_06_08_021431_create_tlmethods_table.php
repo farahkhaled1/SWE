@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateWosAttendenceTable extends Migration
+class CreateTlmethodsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,10 @@ class CreateWosAttendenceTable extends Migration
      */
     public function up()
     {
-        Schema::create('wos_attendence', function (Blueprint $table) {
-            $table->integer('written');
-            $table->integer('labexam');
-            $table->integer('quiz');
-            $table->integer('total');
+        Schema::create('tlmethods', function (Blueprint $table) {
             $table->integer('id', true);
             $table->integer('spec_id')->index('spec_id');
+            $table->string('content', 200);
         });
     }
 
@@ -30,6 +27,6 @@ class CreateWosAttendenceTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('wos_attendence');
+        Schema::dropIfExists('tlmethods');
     }
 }

@@ -25,23 +25,39 @@ class Controller extends BaseController
     {
         $content = $request->content;
         DB::table('assessmentmethod')->insert(['spec_id' => '1', 'content' => $content]);
-        
+    }
+
+
+    public function update_midterm(Request $request)
+    {
+        $content = $request->all();
+        DB::table('wos_midterm')->insert(['written' => $content['content1'], 'labexam' => $content['content2'], 'quiz' => $content['content3'], 'total' => $content['content4'], 'spec_id' => auth()->user()->id]);
+        DB::table('wos_finalexam')->insert(['written' => $content['content1'], 'labexam' => $content['content2'], 'quiz' => $content['content3'], 'total' => $content['content4'], 'spec_id' => auth()->user()->id]);
+        DB::table('wos_attendence')->insert(['written' => $content['content1'], 'labexam' => $content['content2'], 'quiz' => $content['content3'], 'total' => $content['content4'], 'user_id' => auth()->user()->id]);
+        DB::table('wos_participation')->insert(['written' => $content['content1'], 'labexam' => $content['content2'], 'quiz' => $content['content3'], 'total' => $content['content4'], 'spec_id' => auth()->user()->id]);
+        return redirect('sa3');
+    }
+
+    public function update_assign(Request $request)
+    {
+        $content = $request->all();
+        DB::table('assignassessment')->insert(['prof_id' => auth()->user()->id, 'ilo' => $content['content1'], 'assignNum' => $content['content2'], 'assignTitle' => $content['content3'], 'AssessmentCriteria' => $content['content4'], 'gradesWeight' => $content['content5'], 'issueDate' => $content['content6'], 'DueDate' => $content['content7'], 'comments' => $content['content8']]);
+        DB::table('assignassessment')->insert(['prof_id' => auth()->user()->id, 'ilo' => $content['content1'], 'assignNum' => $content['content2'], 'assignTitle' => $content['content3'], 'AssessmentCriteria' => $content['content4'], 'gradesWeight' => $content['content5'], 'issueDate' => $content['content6'], 'DueDate' => $content['content7'], 'comments' => $content['content8']]);
+        DB::table('assignassessment')->insert(['prof_id' => auth()->user()->id, 'ilo' => $content['content1'], 'assignNum' => $content['content2'], 'assignTitle' => $content['content3'], 'AssessmentCriteria' => $content['content4'], 'gradesWeight' => $content['content5'], 'issueDate' => $content['content6'], 'DueDate' => $content['content7'], 'comments' => $content['content8']]);
+        DB::table('assignassessment')->insert(['prof_id' => auth()->user()->id, 'ilo' => $content['content1'], 'assignNum' => $content['content2'], 'assignTitle' => $content['content3'], 'AssessmentCriteria' => $content['content4'], 'gradesWeight' => $content['content5'], 'issueDate' => $content['content6'], 'DueDate' => $content['content7'], 'comments' => $content['content8']]);
+        return redirect('dashboard');
     }
 
     public function saveRecord(Request $request)
     {
-        //$content = $request->content;
-       // DB::table('tlmethods')->insert(['spec_id' => '1', 'content' => 'trdfygjh']);
-       $data = $request->all();
-       foreach($data as $item => $value){
-        DB::table('tlmethods')->insert(['spec_id' => auth()->user()->id, 'content' => $value]);
-       }
-       // dd($request);
-       
+
+        $data = $request->all();
+        foreach ($data as $item => $value) {
+            DB::table('tlmethods')->insert(['spec_id' => auth()->user()->id, 'content' => $value]);
+        }
     }
     public function update_ku(Request $request)
     {
-        //dd($request['1']);
         $data = $request->all();
         foreach ($data as $key => $value) {
             DB::table('ilos')->insert(['content' => $value, 'type' => 'k-u', 'specs(form)_id' => '1']);
@@ -75,5 +91,15 @@ class Controller extends BaseController
     public function course_details(Request $request)
     {
         $content = $request->content;
+    }
+
+
+
+
+    public function insertformindatabase(Request $request)
+    {
+        $data = $request->all();
+        DB::table('checklist')->insert(['user_id' => $data['user_id'], 'form_type' =>  $data['form_type']]);
+        return redirect('dashboard');
     }
 }

@@ -1,10 +1,10 @@
 <x-app-layout>
     @include ('header2')
     <title>Course-specs5</title>
-    <link rel="stylesheet" href="{{url('css/nicepage3.css')}}" media="screen">
-    <link rel="stylesheet" href="{{url('css/specs_facilities.css')}}" media="screen">
-    <script class="u-script" type="text/javascript" src="{{url('js/jquery2.js')}}" defer=""></script>
-    <script class="u-script" type="text/javascript" src="{{url('js/nicepage2.js')}}" defer=""></script>
+    <link rel="stylesheet" href="https://qualitymiu.ukshopy.com/public/css/nicepage3.css" media="screen">
+    <link rel="stylesheet" href="https://qualitymiu.ukshopy.com/public/css/specs_facilities.css" media="screen">
+    <script class="u-script" type="text/javascript" src="https://qualitymiu.ukshopy.com/publicjs/jquery2.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="https://qualitymiu.ukshopy.com/public/js/nicepage2.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.10.5, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
@@ -79,7 +79,12 @@
                 <!-- <h4 class="u-text u-text-default u-text-1" style="float:right;">Date:</h4> -->
             </div>
 
-
+    <form method="POST" action="https://qualitymiu.ukshopy.com/public/specs7/insertformindatabase">
+ @csrf <!-- {{ csrf_field() }} -->
+  <input type="hidden" name="user_id" value="{{{Auth::user()->id}}}">
+   <input type="hidden" name="form_type" value="specs">
+  <input type="submit" value="Submit">
+</form> 
             <a href="{{url('dashboard')}}"
                 class="u-border-none u-btn u-button-style u-grey-75 u-hover-grey-90 u-btn-2">submit</a>
             </div>
