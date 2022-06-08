@@ -94,12 +94,18 @@ class Controller extends BaseController
     }
 
 
-
-
     public function insertformindatabase(Request $request)
     {
         $data = $request->all();
         DB::table('checklist')->insert(['user_id' => $data['user_id'], 'form_type' =>  $data['form_type']]);
         return redirect('dashboard');
+    }
+
+
+    public function add_doctor(Request $request)
+    {
+        $content = $request->all();
+        DB::table('users')->insert(['name' => $content['name'], 'email' => $content['email'], 'password' => $content['password']]);
+        return redirect('admin/dashboard');
     }
 }

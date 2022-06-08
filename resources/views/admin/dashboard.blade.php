@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
@@ -30,7 +29,7 @@
         <img class="u-image u-image-default u-image-1" src="{{url('images/logo.png')}}" alt="" data-image-width="654" data-image-height="194">
         <div class="u-container-style u-custom-color-2 u-group u-radius-10 u-shape-round u-group-1">
           <div class="u-container-layout u-valign-middle u-container-layout-1">
-            <p class="u-text u-text-default u-text-1">Hello,DR name</p>
+            <p class="u-text u-text-default u-text-1">{{Auth::user()->name}}</p>
           </div>                                                                                                                                 
         </div><span class="u-file-icon u-icon u-icon-1" data-href="https://www.youtube.com/channel/UCSWoceY_bLReeBUypucmheA" data-target="_blank"><img src="{{url('images/2111748.png')}}" alt=""></span>
       </div></header>
