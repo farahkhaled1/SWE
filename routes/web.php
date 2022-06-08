@@ -400,6 +400,7 @@ Route::get('doctordetails', [CourseController::class, 'showdoctord']);
 
 Route::resource('ilos', kucontroller::class);
 
+<<<<<<< Updated upstream
 // Route::get('/login', function () {
 //     return view('login');
 // });
@@ -636,6 +637,27 @@ Route::middleware([
     })->name('courses');
 });
 
+=======
+//use App\Http\Controllers\deletecontroller;
+use App\Http\Controllers\DrDeleteController;
+use App\Http\Controllers\SignaturePadController;
+use Illuminate\Support\Facades\Route;
+// use App\Http\Controllers\CourseController;
+use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\tlController;
+use App\Models\assignassessment;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+>>>>>>> Stashed changes
 
 Route::GET('add', [addDoctorController::class, 'Adddata']);
 
@@ -798,9 +820,9 @@ Route::get('/specs7', function () {
     return view('specs7');
 });
 
-Route::get('/courseAssesment', function () {
-    return view('courseAssesment');
-});
+// Route::get('/courseAssesment', function () {
+//     return view('courseAssesment');
+// });
 
 Route::get('/specs1', function () {
     return view('specs1');
@@ -859,12 +881,12 @@ Route::get('/test', function () {
 Route::get('/courses', 'App\Http\Controllers\CourseController@show');
 // Route::get('/assign1',[CourseContoller::class,'show']);
 Route::get('assign1', [CourseController::class, 'show']);
-
+Route::get('courseAssesment', [CourseController::class, 'courseAssesment']);
 Route::get('coursesDetails', [CourseController::class, 'CourseTable']);
 Route::get('checklist', [CourseController::class, 'Checklist']);
 
 Route::get('assign1', [CourseController::class, 'show']);
-
+Route::get('assignment1', [assignassessment::class, 'showAssgn']);
 Route::get('/doctordetails', function () {
     return view('doctorDetails');
 });
@@ -888,12 +910,16 @@ Route::get('/message', function () {
 //     return view('courseAssesment');
 // });
 
+<<<<<<< Updated upstream
 
 // Route::get('courses', 'CourseController@assign1');
 
 
 
 
+=======
+Route::get('courses','CourseController@assign1');
+>>>>>>> Stashed changes
 
 Route::get('courses', 'CourseController@assign1');
 
@@ -933,4 +959,9 @@ Route::middleware([
     })->name('courses');
 });
 
+<<<<<<< Updated upstream
 Route::get('/send-deadlinenotfc',[DeadlineController::class,'sendtestnotfication']);
+=======
+Route::get('signaturepad', [SignaturePadController::class, 'index']);
+Route::post('signaturepad', [SignaturePadController::class, 'upload'])->name('signaturepad.upload');
+>>>>>>> Stashed changes

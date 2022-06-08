@@ -61,7 +61,11 @@
                     alt=""></span>
                 <p class="u-align-center u-text u-text-custom-color-1 u-text-default u-text-4">Assignemnt Assesment Form
                 </p>
+<<<<<<< Updated upstream
                 <a href="{{url('assignment0')}}"
+=======
+                <a href="{{url('assignment1')}}"
+>>>>>>> Stashed changes
                   class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-text-body-color u-btn-2">Enter</a>
               </div>
             </div>
